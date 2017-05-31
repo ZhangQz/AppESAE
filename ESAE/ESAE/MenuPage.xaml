@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="ESAE.MenuPage"
+             xmlns:local="clr-namespace:ESAE;assembly=ESAE">
+
+    <MasterDetailPage.Detail>
+        <ContentPage>
+            <StackLayout Orientation="Vertical">
+                <Button Text="Perfil" />
+                <Button Text="Sobre nós" />
+                <Button Text="Eventos" />
+                <Button Text="Mestrados" />
+                <Button Text="Pós-Graduações" />
+                <Button Text="Mensagens" />
+                <Button Text="Contactos" />
+
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+
+    <MasterDetailPage.Detail>
+        
+        <local:ESAEPage />
+        
+    </MasterDetailPage.Detail>
+    
+</MasterDetailPage>

@@ -1,0 +1,4 @@
+C:\Users\zhang\AppESAE\ESAE_WIN\ESAE_WIN\ESAE_WIN\obj\Debug\ESAE_WIN.csprojResolveAssemblyReference.cache
+C:\Users\zhang\AppESAE\ESAE_WIN\ESAE_WIN\ESAE_WIN\obj\Debug\ESAE_WIN.MainPage.xaml.g.cs
+C:\Users\zhang\AppESAE\ESAE_WIN\ESAE_WIN\ESAE_WIN\obj\Debug\ESAE_WIN.App.xaml.g.cs
+C:\Users\zhang\AppESAE\ESAE_WIN\ESAE_WIN\ESAE_WIN\obj\Debug\ESAE_WIN.Mestrados.xaml.g.cs

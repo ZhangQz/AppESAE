@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ESAE_WIN.PosGrad">
+    <StackLayout>
+        <Button Text="Análise de Redes Sociais"
+                />
+        <Button Text="Audiovisuais e Multimédia"
+                />
+        <Button Text="Desenvolvimento de Conteúdos Mobile"
+                />
+        <Button Text="Literacia Mediática na Era Digital"
+                />
+        <Button Text="Social Media Marketing e Multimédia"
+                />
+        <Button Text="Empreendorismo Criativo"
+                />
+        <Button Text="Gestão das Organizações Do Terceiro Sector"
+                />
+        <Button Text="Acupuntura Estética e Dermatológica"
+                />
+        <Button Text="Gestão Global e Prática de Organizações Sociais"
+                />
+        <Button Text="Avaliação de Intervenção com Famílias em Risco e Perigo"
+                />
+        <Button Text="Psicoterapia Breve"
+                />
+        <Button Text="Psicoterapia Psicanalítica"
+                />
+        <Button Text="Psicoterapia Da Criança e Do Adolescente"
+                />
+        <Button Text="Terapias Cognitivo - Comportamentais Contextuais em Perturbações Psicológicas e Problemas de Saúdo"
+                />
+        <Button Text="Neuropsicologia Clínica"
+                />
+        <Button Text="Intervenção com Doentes de Alzheimer e outras Demências"
+                />
+    </StackLayout>
+</ContentPage>

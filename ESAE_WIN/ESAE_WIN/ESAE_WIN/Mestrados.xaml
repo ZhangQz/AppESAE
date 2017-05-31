@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ESAE_WIN.Mestrados">
+    <StackLayout>
+        <Button Text="Gestão de Recursos Humanos e Comportamento Organizacional"
+                />
+        <Button Text="Psicologia Clínica"
+                />
+        <Button Text="Serviço Social"
+                />
+    </StackLayout>
+</ContentPage>

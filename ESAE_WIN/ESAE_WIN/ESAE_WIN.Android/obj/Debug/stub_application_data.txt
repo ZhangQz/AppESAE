@@ -1,0 +1,2 @@
+android.app.Application
+ESAE_WIN.Android

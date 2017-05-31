@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace ESAE_WIN
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Page2 : ContentPage
+    public partial class Audiovisuais : ContentPage
     {
-        public Page2()
+        public Audiovisuais()
         {
             InitializeComponent();
         }

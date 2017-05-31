@@ -8,5 +8,7 @@
         <TextCell Text="Apresentação"
                   Detail="O curso de Pós-Graduação em Audiovisuais e Multimédia visa a capacitação dos discentes de conhecimentos e competências para a produção e implementação de projetos na área dos Audiovisuais e Multimédia, com particular destaque para Conteúdos Multiplataforma, Vídeo, Documentário e Digital Storytelling."
                   />
+        <Button Text="Ler Mais"
+                />
     </StackLayout>
 </ContentPage>

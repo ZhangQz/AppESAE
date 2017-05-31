@@ -44,6 +44,12 @@
     <Compile Include="Mestrados.xaml.cs">
       <DependentUpon>Mestrados.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Audiovisuais.xaml.cs">
+      <DependentUpon>Audiovisuais.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PosGrad.xaml.cs">
+      <DependentUpon>PosGrad.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -75,6 +81,18 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Mestrados.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PosGrad.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Audiovisuais.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

@@ -43,7 +43,7 @@
     </MasterDetailPage.Master>
 
     <MasterDetailPage.Detail>
-        <ContentPage Padding="10">
+        <ContentPage Padding="10" Icon="hamburger.png" Title="Detail">
             <ContentPage.Content>
                 <StackLayout Margin="5,30,5,5">
                     <Label Text="DETAIL" />

@@ -1,14 +1,5 @@
 ﻿<Properties StartupConfiguration="{7A0BF452-364F-45E5-B389-C6B25C0CECCD}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ESAE/ESAEPage.xaml.cs">
-    <Files>
-      <File FileName="ESAE/ESAEPage.xaml" Line="56" Column="1" />
-      <File FileName="ESAE/ESAEPage.xaml.cs" Line="27" Column="23" />
-      <File FileName="ESAE/Page1.xaml" Line="10" Column="1" />
-      <File FileName="ESAE/Page1.xaml.cs" Line="1" Column="1" />
-      <File FileName="ESAE/Page2.xaml" Line="12" Column="1" />
-      <File FileName="ESAE/Page2.xaml.cs" Line="1" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

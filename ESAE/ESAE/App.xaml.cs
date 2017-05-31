@@ -8,7 +8,7 @@ namespace ESAE
         {
             InitializeComponent();
 
-            MainPage = new ESAEPage();
+            MainPage = new NavigationPage(new ESAEPage());
         }
 
         protected override void OnStart()

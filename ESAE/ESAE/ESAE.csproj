@@ -44,8 +44,62 @@
     <Compile Include="ESAEPage.xaml.cs">
       <DependentUpon>ESAEPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="AudiovisuaisMultimediaPage.xaml.cs">
+    <Compile Include="Mestrados\GestaoRecursosPage.xaml.cs">
+      <DependentUpon>GestaoRecursosPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Mestrados\ServicoSocialPage.xaml.cs">
+      <DependentUpon>ServicoSocialPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Mestrados\PsicologiaClinicaPage.xaml.cs">
+      <DependentUpon>PsicologiaClinicaPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pos_Grads\AudiovisuaisMultimediaPage.xaml.cs">
       <DependentUpon>AudiovisuaisMultimediaPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pos_Grads\AnaliseRedesPage.xaml.cs">
+      <DependentUpon>AnaliseRedesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pos_Grads\DesenvolvimentoConteudosPage.xaml.cs">
+      <DependentUpon>DesenvolvimentoConteudosPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pos_Grads\LiteraciaMediaticaPage.xaml.cs">
+      <DependentUpon>LiteraciaMediaticaPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pos_Grads\EmpreendorismoCriativoPage.xaml.cs">
+      <DependentUpon>EmpreendorismoCriativoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pos_Grads\GestaoOrganizacoesPage.xaml.cs">
+      <DependentUpon>GestaoOrganizacoesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pos_Grads\AcunpunturaEsteticaPage.xaml.cs">
+      <DependentUpon>AcunpunturaEsteticaPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pos_Grads\GestaoGLobalPage.xaml.cs">
+      <DependentUpon>GestaoGLobalPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pos_Grads\AvaliacaoIntervencaoPage.xaml.cs">
+      <DependentUpon>AvaliacaoIntervencaoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pos_Grads\NeuropsicologiaCLinicaPage.xaml.cs">
+      <DependentUpon>NeuropsicologiaCLinicaPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pos_Grads\IntervençãoDoentesPage.xaml.cs">
+      <DependentUpon>IntervençãoDoentesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pos_Grads\TerapiasCognitivoPage.xaml.cs">
+      <DependentUpon>TerapiasCognitivoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pos_Grads\PsicoterapiaCriancaPage.xaml.cs">
+      <DependentUpon>PsicoterapiaCriancaPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pos_Grads\PsicoterapiaPsicanaliticaPage.xaml.cs">
+      <DependentUpon>PsicoterapiaPsicanaliticaPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pos_Grads\PsicoterapiaBrevePage.xaml.cs">
+      <DependentUpon>PsicoterapiaBrevePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pos_Grads\SocialMediaPage.xaml.cs">
+      <DependentUpon>SocialMediaPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MestradosPage.xaml.cs">
@@ -70,7 +124,115 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="AudiovisuaisMultimediaPage.xaml">
+    <EmbeddedResource Include="Pos_Grads\AudiovisuaisMultimediaPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pos_Grads\AnaliseRedesPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pos_Grads\DesenvolvimentoConteudosPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pos_Grads\LiteraciaMediaticaPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pos_Grads\SocialMediaPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pos_Grads\EmpreendorismoCriativoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pos_Grads\GestaoOrganizacoesPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pos_Grads\AcunpunturaEsteticaPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pos_Grads\GestaoGLobalPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pos_Grads\AvaliacaoIntervencaoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pos_Grads\PsicoterapiaBrevePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pos_Grads\PsicoterapiaPsicanaliticaPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pos_Grads\PsicoterapiaCriancaPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pos_Grads\TerapiasCognitivoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pos_Grads\NeuropsicologiaCLinicaPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pos_Grads\IntervençãoDoentesPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mestrados\GestaoRecursosPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mestrados\PsicologiaClinicaPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mestrados\ServicoSocialPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace ESAE
+namespace ESAE.Pos_Grads
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class AudiovisuaisMultimediaPage : ContentPage
+    public partial class TerapiasCognitivoPage : ContentPage
     {
-        public AudiovisuaisMultimediaPage()
+        public TerapiasCognitivoPage()
         {
             InitializeComponent();
         }

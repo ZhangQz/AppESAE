@@ -12,7 +12,7 @@ namespace ESAE
 
         private void btnMestrados_Clicked(object sender, System.EventArgs e)
         {
-            Debug.Writeline("Lista de Mestrados");
+            Debug.WriteLine("Lista de Mestrados");
 
             MestradosPage mp = new MestradosPage();
             Navigation.PushModalAsync(mp);

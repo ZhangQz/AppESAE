@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using System.Diagnostics;
+using Xamarin.Forms;
 
 namespace ESAE
 {
@@ -9,24 +10,30 @@ namespace ESAE
             InitializeComponent();
         }
 
-        void Handle_Clicked(object sender, System.EventArgs e)
+        private void btnMestrados_Clicked(object sender, System.EventArgs e)
         {
-            
+            Debug.Writeline("Lista de Mestrados");
+
+            MestradosPage mp = new MestradosPage();
+            Navigation.PushModalAsync(mp);
         }
 
-		void Handle_Clicked2(object sender, System.EventArgs e)
-		{
-			
-		}
+        private void btnAvisos_Clicked(object sender, System.EventArgs e)
+        {
 
-		void Handle_Clicked3(object sender, System.EventArgs e)
-		{
+        }
 
-		}
+        private void btnPerfil_Clicked(object sender, System.EventArgs e)
+        {
 
-		void Handle_Clicked4(object sender, System.EventArgs e)
-		{
+        }
 
-		}
+        private void btnPosGrads_Clicked(object sender, System.EventArgs e)
+        {
+            Debug.WriteLine("Lista de Pos Graduações");
+
+            PosGradsPage pgp = new PosGradsPage();
+            Navigation.PushModalAsync(pgp);
+        }
     }
 }

@@ -18,24 +18,28 @@
                             Margin="0,0,0,20"/>
                     
                     <Button Text="Perfil" 
+                            x:Name="btnPerfil"
                             TextColor="White" 
                             HorizontalOptions="StartAndExpand" 
-                            Clicked="Handle_Clicked" />
+                            Clicked="btnPerfil_Clicked" />
                     
                     <Button Text="Avisos" 
+                            x:Name="btnAvisos"
                             TextColor="White" 
                             HorizontalOptions="StartAndExpand" 
-                            Clicked="Handle_Clicked2" />
+                            Clicked="btnAvisos_Clicked" />
                     
                     <Button Text="Mestrados" 
+                            x:Name="btnMestrados"
                             TextColor="White" 
                             HorizontalOptions="StartAndExpand" 
-                            Clicked="Handle_Clicked3" />
+                            Clicked="btnMestrados_Clicked" />
                     
                     <Button Text="Pós-Graduações" 
+                            x:Name="btnPosGrads"
                             TextColor="White" 
                             HorizontalOptions="StartAndExpand" 
-                            Clicked="Handle_Clicked4" />
+                            Clicked="btnPosGrads_Clicked" />
                     
                 </StackLayout>
             </ContentPage.Content>

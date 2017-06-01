@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{752C1C7A-FA46-493F-A46D-879DC35EA314}</ProjectGuid>
+    <ProjectGuid>{DF9F8374-AEA0-40E8-8DC2-68E63AF24CD5}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ESAE_WIN.UWP</RootNamespace>
@@ -153,7 +153,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ESAE_WIN\ESAE_WIN.csproj">
-      <Project>{5efd6273-2b5e-4454-91d8-f1a3dca3583e}</Project>
+      <Project>{8c3052f7-04e9-4556-b402-1282ad2e450c}</Project>
       <Name>ESAE_WIN</Name>
     </ProjectReference>
   </ItemGroup>

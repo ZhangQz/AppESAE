@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{5A03E6C3-A43F-4676-B29E-0736DFE56BF4}</ProjectGuid>
+    <ProjectGuid>{F5977A1E-9016-4979-BE5D-B09141D4D6A3}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
     <RootNamespace>ESAE_WIN.iOS</RootNamespace>
@@ -139,7 +139,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ESAE_WIN\ESAE_WIN.csproj">
-      <Project>{5efd6273-2b5e-4454-91d8-f1a3dca3583e}</Project>
+      <Project>{8c3052f7-04e9-4556-b402-1282ad2e450c}</Project>
       <Name>ESAE_WIN</Name>
     </ProjectReference>
   </ItemGroup>

@@ -12,11 +12,11 @@ namespace ESAE_WIN {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\zhang\\AppESAE\\ESAE_WIN\\ESAE_WIN\\ESAE_WIN\\Mestrados.xaml")]
-    public partial class Mestrados : global::Xamarin.Forms.ContentPage {
+    public partial class Page1 : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Mestrados));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Page1));
         }
     }
 }

@@ -24,9 +24,9 @@ C:\Users\zhang\AppESAE\ESAE_WIN\ESAE_WIN\ESAE_WIN.Android\obj\Debug\android\asse
 C:\Users\zhang\AppESAE\ESAE_WIN\ESAE_WIN\ESAE_WIN.Android\obj\Debug\android\assets\System.ComponentModel.Composition.dll
 C:\Users\zhang\AppESAE\ESAE_WIN\ESAE_WIN\ESAE_WIN.Android\obj\Debug\android\assets\System.Resources.ResourceManager.dll
 C:\Users\zhang\AppESAE\ESAE_WIN\ESAE_WIN\ESAE_WIN.Android\obj\Debug\android\assets\System.Diagnostics.Tools.dll
-C:\Users\zhang\AppESAE\ESAE_WIN\ESAE_WIN\ESAE_WIN.Android\obj\Debug\android\assets\System.Collections.dll
 C:\Users\zhang\AppESAE\ESAE_WIN\ESAE_WIN\ESAE_WIN.Android\obj\Debug\android\assets\System.Diagnostics.Debug.dll
 C:\Users\zhang\AppESAE\ESAE_WIN\ESAE_WIN\ESAE_WIN.Android\obj\Debug\android\assets\System.Threading.Tasks.dll
+C:\Users\zhang\AppESAE\ESAE_WIN\ESAE_WIN\ESAE_WIN.Android\obj\Debug\android\assets\System.Collections.dll
 C:\Users\zhang\AppESAE\ESAE_WIN\ESAE_WIN\ESAE_WIN.Android\obj\Debug\android\assets\System.ObjectModel.dll
 C:\Users\zhang\AppESAE\ESAE_WIN\ESAE_WIN\ESAE_WIN.Android\obj\Debug\android\assets\System.Globalization.dll
 C:\Users\zhang\AppESAE\ESAE_WIN\ESAE_WIN\ESAE_WIN.Android\obj\Debug\android\assets\System.ComponentModel.dll

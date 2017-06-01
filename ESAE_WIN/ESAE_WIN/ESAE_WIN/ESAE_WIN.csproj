@@ -5,7 +5,7 @@
     <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4D2706E0-A9B3-4FDF-A524-107558D4342E}</ProjectGuid>
+    <ProjectGuid>{5C441067-9F30-493D-B782-3E2ED661C15D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ESAE_WIN</RootNamespace>
@@ -41,14 +41,14 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Mestrados.xaml.cs">
-      <DependentUpon>Mestrados.xaml</DependentUpon>
+    <Compile Include="MestradosPage.xaml.cs">
+      <DependentUpon>MestradosPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Audiovisuais.xaml.cs">
-      <DependentUpon>Audiovisuais.xaml</DependentUpon>
+    <Compile Include="AudiovisuaisMultimediaPage.xaml.cs">
+      <DependentUpon>AudiovisuaisMultimediaPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PosGrad.xaml.cs">
-      <DependentUpon>PosGrad.xaml</DependentUpon>
+    <Compile Include="PosGradsPage.xaml.cs">
+      <DependentUpon>PosGradsPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -80,19 +80,19 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Mestrados.xaml">
+    <EmbeddedResource Include="MestradosPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="PosGrad.xaml">
+    <EmbeddedResource Include="PosGradsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Audiovisuais.xaml">
+    <EmbeddedResource Include="AudiovisuaisMultimediaPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

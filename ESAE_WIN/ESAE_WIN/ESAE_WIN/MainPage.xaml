@@ -3,20 +3,33 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:ESAE_WIN"
              x:Class="ESAE_WIN.MainPage">
-    <StackLayout>
-        <Button Text="Mestrados"
-                HorizontalOptions="Center"
-                BackgroundColor="Aqua"
-                HeightRequest="50"
-                WidthRequest="100"
-                />
-        <Button Text="Pós-Graduduações" 
-                HorizontalOptions="Center"
-                BackgroundColor="Cyan"
-                HeightRequest="50"
-                WidthRequest="100"
-                />
-    </StackLayout>
 
-
+	<Label Text="Welcome to Xamarin Forms!" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+    <MasterDetailPage.Master>
+        <ContentPage Padding="10" BackgroundColor="Black" Opacity="0,5" Title="Master" >
+            <ContentPage.Content>
+                <StackLayout Margin="5,30,5,5">
+                    <Button Text="Mestrados"
+                            x:Name="btnMestrados"
+                            Clicked="btnMestrados_Clicked"
+                    />
+                    <Button Text="Pós-Graduações"
+                            x:Name="btnPosGrads"
+                            Clicked="btnPosGrads_Clicked"
+                    />
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <ContentPage Padding="10">
+            <ContentPage.Content>
+                <StackLayout Margin="5,30,5,5">
+                    <Label Text="DETAIL" />
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
 </ContentPage>

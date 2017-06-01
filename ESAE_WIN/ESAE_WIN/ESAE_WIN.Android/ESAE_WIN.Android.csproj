@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{0D34C3AF-DC73-4772-B947-E985A65BB092}</ProjectGuid>
+    <ProjectGuid>{0A953B29-E8E3-479B-8813-6FC00A8FA1EE}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -134,7 +134,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ESAE_WIN\ESAE_WIN.csproj">
-      <Project>{5efd6273-2b5e-4454-91d8-f1a3dca3583e}</Project>
+      <Project>{8c3052f7-04e9-4556-b402-1282ad2e450c}</Project>
       <Name>ESAE_WIN</Name>
     </ProjectReference>
   </ItemGroup>

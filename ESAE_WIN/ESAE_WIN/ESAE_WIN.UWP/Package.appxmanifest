@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="4b229124-0999-478c-905b-1032dc6bf71c"
+    Name="2d01f7ab-b59f-4bad-9d5c-9be371dc956a"
     Publisher="CN=zhang"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="4b229124-0999-478c-905b-1032dc6bf71c" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="2d01f7ab-b59f-4bad-9d5c-9be371dc956a" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>ESAE_WIN.UWP</DisplayName>

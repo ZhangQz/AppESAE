@@ -1,4 +1,3 @@
-C:\Users\zhang\AppESAE\ESAE_WIN\ESAE_WIN\ESAE_WIN.Android\obj\Debug\ESAE_WIN.Android.csprojResolveAssemblyReference.cache
 C:\Users\zhang\AppESAE\ESAE_WIN\ESAE_WIN\ESAE_WIN.Android\bin\Debug\ESAE_WIN.Android.dll
 C:\Users\zhang\AppESAE\ESAE_WIN\ESAE_WIN\ESAE_WIN.Android\bin\Debug\ESAE_WIN.Android.pdb
 C:\Users\zhang\AppESAE\ESAE_WIN\ESAE_WIN\ESAE_WIN.Android\bin\Debug\ESAE_WIN.Android.apk
@@ -24,6 +23,7 @@ C:\Users\zhang\AppESAE\ESAE_WIN\ESAE_WIN\ESAE_WIN.Android\bin\Debug\Xamarin.Form
 C:\Users\zhang\AppESAE\ESAE_WIN\ESAE_WIN\ESAE_WIN.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
 C:\Users\zhang\AppESAE\ESAE_WIN\ESAE_WIN\ESAE_WIN.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\zhang\AppESAE\ESAE_WIN\ESAE_WIN\ESAE_WIN.Android\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\zhang\AppESAE\ESAE_WIN\ESAE_WIN\ESAE_WIN.Android\obj\Debug\ESAE_WIN.Android.csprojResolveAssemblyReference.cache
 C:\Users\zhang\AppESAE\ESAE_WIN\ESAE_WIN\ESAE_WIN.Android\obj\Debug\ESAE_WIN.Android.dll
 C:\Users\zhang\AppESAE\ESAE_WIN\ESAE_WIN\ESAE_WIN.Android\obj\Debug\ESAE_WIN.Android.pdb
 C:\Users\zhang\AppESAE\ESAE_WIN\ESAE_WIN\ESAE_WIN.Android\obj\Debug\android\bin\ESAE_WIN.Android.apk

@@ -45,3 +45,13 @@ C:\Users\zhang\Documents\GitHub\AppESAE\ESAE\ESAE\obj\Debug\ESAE.Mestrados.Psico
 C:\Users\zhang\Documents\GitHub\AppESAE\ESAE\ESAE\obj\Debug\ESAE.Mestrados.ServicoSocialPage.xaml.g.cs
 C:\Users\zhang\Documents\GitHub\AppESAE\ESAE\ESAE\obj\Debug\ESAE.dll
 C:\Users\zhang\Documents\GitHub\AppESAE\ESAE\ESAE\obj\Debug\ESAE.pdb
+C:\Users\zhang\Documents\GitHub\AppESAE\ESAE\ESAE\bin\Debug\ESAE.dll
+C:\Users\zhang\Documents\GitHub\AppESAE\ESAE\ESAE\bin\Debug\ESAE.pdb
+C:\Users\zhang\Documents\GitHub\AppESAE\ESAE\ESAE\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\zhang\Documents\GitHub\AppESAE\ESAE\ESAE\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\zhang\Documents\GitHub\AppESAE\ESAE\ESAE\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\zhang\Documents\GitHub\AppESAE\ESAE\ESAE\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\zhang\Documents\GitHub\AppESAE\ESAE\ESAE\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\zhang\Documents\GitHub\AppESAE\ESAE\ESAE\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\zhang\Documents\GitHub\AppESAE\ESAE\ESAE\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\zhang\Documents\GitHub\AppESAE\ESAE\ESAE\bin\Debug\Xamarin.Forms.Xaml.xml

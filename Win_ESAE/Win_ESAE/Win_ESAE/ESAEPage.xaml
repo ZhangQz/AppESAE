@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:Win_ESAE" 
+             x:Class="Win_ESAE.ESAEPage">
+
+    <MasterDetailPage.Master>
+        <ContentPage Padding="10" BackgroundColor="Black" Opacity="0,5" Title="Master" >
+            <ContentPage.Content>
+                <StackLayout Margin="5,30,5,5">
+                    
+                    <Label  Text="Menu" 
+                            TextColor="White" 
+                            HorizontalTextAlignment="Start" 
+                            Margin="0,0,0,20"/>
+                    
+                    <Button Text="Perfil" 
+                            x:Name="btnPerfil"
+                            TextColor="White" 
+                            HorizontalOptions="StartAndExpand" 
+                            Clicked="btnPerfil_Clicked" />
+                    
+                    <Button Text="Avisos" 
+                            x:Name="btnAvisos"
+                            TextColor="White" 
+                            HorizontalOptions="StartAndExpand" 
+                            Clicked="btnAvisos_Clicked" />
+                    
+                    <Button Text="Mestrados" 
+                            x:Name="btnMestrados"
+                            TextColor="White" 
+                            HorizontalOptions="StartAndExpand" 
+                            Clicked="btnMestrados_Clicked" />
+                    
+                    <Button Text="Pós-Graduações" 
+                            x:Name="btnPosGrads"
+                            TextColor="White" 
+                            HorizontalOptions="StartAndExpand" 
+                            Clicked="btnPosGrads_Clicked" />
+                    
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <ContentPage Padding="10" Icon="hamburger.png" Title="Detail">
+            <ContentPage.Content>
+                <StackLayout Margin="5,30,5,5">
+                    <Label Text="DETAIL" />
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+    
+</MasterDetailPage>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MDP.CursosPage"
+             Title="Título da Página 2">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button x:Name="BtnMestrados"
+                    Text="Mestrados"
+                    Clicked="BtnMestrados_Clicked"/>
+            <Button x:Name="BtnPosGrads"
+                    Text="Pós-Graduação"
+                    Clicked="BtnPosGrads_Clicked"/>
+            <Button x:Name="BtnOutrosCursos"
+                    Text="Cursos Livres"
+                    Clicked="BtnOutrosCursos_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

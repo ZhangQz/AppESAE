@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MDP.Master"
+             Title="Menu - Não Visível"
+             BackgroundColor="Yellow">
+
+    <!-- menu lateral -->
+    <StackLayout Padding="20 10" >
+        <Button x:Name="BtnCursos"
+                Text="Ofertas Formativas"
+                Clicked="BtnCursos_Clicked"/>
+        <Button x:Name="BtnCalendario"
+                Text="Calendário"
+                Clicked="BtnCalendario_Clicked"/>
+        <Button x:Name="BtnDocumentos"
+                Text="Documentos"
+                Clicked="BtnDocumentos_Clicked"/>
+        <Button x:Name="BtnSobreNos"
+                Text="Sobre Nós"
+                Clicked="BtnSobreNos_Clicked"/>
+    </StackLayout>
+    
+</ContentPage>

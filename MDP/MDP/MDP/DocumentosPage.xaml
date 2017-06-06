@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MDP.DocumentosPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button x:Name="BtnBoletins"
+                    Title ="Boletins"
+                    Clicked="BtnBoletins_Clicked"/>
+            <Button x:Name="BtnCriterios"
+                    Title ="Critérios"
+                    Clicked="BtnCriterios_Clicked"/>
+            <Button x:Name="BtnCapas"
+                    Title ="Capas"
+                    Clicked="BtnCapas_Clicked"/>
+            <Button x:Name="BtnEntregas"
+                    Title ="Entregas"
+                    Clicked="BtnEntregas_Clicked"/>
+            <Button x:Name="BtnEstagios"
+                    Title="Estágios"
+                    Clicked="BtnEstagios_Clicked"/>
+            <Button x:Name="BtnSumario"
+                    Title="Folhas de Sumário"
+                    Clicked="BtnSumario_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

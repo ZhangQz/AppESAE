@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 01-Jun-2017 às 22:57
+-- Generation Time: 06-Jun-2017 às 17:09
 -- Versão do servidor: 5.7.14
 -- PHP Version: 5.6.25
 
@@ -50,6 +50,17 @@ CREATE TABLE `disciplinas` (
 -- --------------------------------------------------------
 
 --
+-- Estrutura da tabela `documentos`
+--
+
+CREATE TABLE `documentos` (
+  `id` int(11) NOT NULL,
+  `nome` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
 -- Estrutura da tabela `eventos`
 --
 
@@ -85,6 +96,18 @@ CREATE TABLE `propinas` (
   `valor` int(11) NOT NULL,
   `pago` tinyint(1) NOT NULL,
   `datapag` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `rel_cursos_doc`
+--
+
+CREATE TABLE `rel_cursos_doc` (
+  `id` int(11) NOT NULL,
+  `curso` int(11) NOT NULL,
+  `doc` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -176,6 +199,12 @@ ALTER TABLE `disciplinas`
   ADD PRIMARY KEY (`id_disciplinas`);
 
 --
+-- Indexes for table `documentos`
+--
+ALTER TABLE `documentos`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `eventos`
 --
 ALTER TABLE `eventos`
@@ -193,6 +222,14 @@ ALTER TABLE `login`
 --
 ALTER TABLE `propinas`
   ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `rel_cursos_doc`
+--
+ALTER TABLE `rel_cursos_doc`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `curso` (`curso`),
+  ADD KEY `doc` (`doc`);
 
 --
 -- Indexes for table `rel_cursos_eventos`
@@ -257,6 +294,11 @@ ALTER TABLE `cursos`
 ALTER TABLE `disciplinas`
   MODIFY `id_disciplinas` int(11) NOT NULL AUTO_INCREMENT;
 --
+-- AUTO_INCREMENT for table `documentos`
+--
+ALTER TABLE `documentos`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+--
 -- AUTO_INCREMENT for table `eventos`
 --
 ALTER TABLE `eventos`
@@ -270,6 +312,11 @@ ALTER TABLE `login`
 -- AUTO_INCREMENT for table `propinas`
 --
 ALTER TABLE `propinas`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT for table `rel_cursos_doc`
+--
+ALTER TABLE `rel_cursos_doc`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `rel_cursos_eventos`
@@ -305,6 +352,13 @@ ALTER TABLE `rel_utilizador_cursos`
 --
 ALTER TABLE `login`
   ADD CONSTRAINT `login_ibfk_1` FOREIGN KEY (`numero`) REFERENCES `utilizador` (`numero`);
+
+--
+-- Limitadores para a tabela `rel_cursos_doc`
+--
+ALTER TABLE `rel_cursos_doc`
+  ADD CONSTRAINT `rel_cursos_doc_ibfk_1` FOREIGN KEY (`curso`) REFERENCES `cursos` (`id_curso`),
+  ADD CONSTRAINT `rel_cursos_doc_ibfk_2` FOREIGN KEY (`doc`) REFERENCES `documentos` (`id`);
 
 --
 -- Limitadores para a tabela `rel_cursos_eventos`

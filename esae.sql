@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 06-Jun-2017 às 17:09
+-- Generation Time: 06-Jun-2017 às 18:18
 -- Versão do servidor: 5.7.14
 -- PHP Version: 5.6.25
 
@@ -55,7 +55,8 @@ CREATE TABLE `disciplinas` (
 
 CREATE TABLE `documentos` (
   `id` int(11) NOT NULL,
-  `nome` varchar(50) NOT NULL
+  `nome` varchar(50) NOT NULL,
+  `categoria` set('Boletim','Critérios','Capas','Entregas','Estágios','Folha de sumário') NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -67,7 +68,7 @@ CREATE TABLE `documentos` (
 CREATE TABLE `eventos` (
   `id_evento` int(11) NOT NULL,
   `nome` varchar(150) NOT NULL,
-  `tipo` enum('Workshop','Cursos') NOT NULL DEFAULT 'Workshop'
+  `tipo` enum('workshop','palestra','ronaldo') NOT NULL DEFAULT 'workshop'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------

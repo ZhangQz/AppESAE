@@ -96,3 +96,11 @@ C:\Users\zhang\Documents\GitHub\AppESAE\MDP_ESAE\MDP_ESAE\MDP_ESAE.Android\obj\D
 C:\Users\zhang\Documents\GitHub\AppESAE\MDP_ESAE\MDP_ESAE\MDP_ESAE.Android\obj\Debug\res\values\strings.xml
 C:\Users\zhang\Documents\GitHub\AppESAE\MDP_ESAE\MDP_ESAE\MDP_ESAE.Android\obj\Debug\R.cs.flag
 C:\Users\zhang\Documents\GitHub\AppESAE\MDP_ESAE\MDP_ESAE\MDP_ESAE.Android\obj\Debug\uploadflags.txt
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP_ESAE\MDP_ESAE\MDP_ESAE.Android\bin\Debug\MDP_ESAE.dll.mdb
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP_ESAE\MDP_ESAE\MDP_ESAE.Android\bin\Debug\MDP_ESAE.Android.dll.mdb
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP_ESAE\MDP_ESAE\MDP_ESAE.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP_ESAE\MDP_ESAE\MDP_ESAE.Android\obj\Debug\android\assets\MDP_ESAE.Android.dll.mdb
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP_ESAE\MDP_ESAE\MDP_ESAE.Android\obj\Debug\android\assets\MDP_ESAE.dll.mdb
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP_ESAE\MDP_ESAE\MDP_ESAE.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP_ESAE\MDP_ESAE\MDP_ESAE.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP_ESAE\MDP_ESAE\MDP_ESAE.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb

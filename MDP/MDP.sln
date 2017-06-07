@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDP.Android", "MDP\MDP.Android\MDP.Android.csproj", "{86BFF1D3-2B3D-4424-9C21-ECFDDA2BD551}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDP.Android", "..\..\..\..\Downloads\exemplo_mdp (1)\MDP\MDP\MDP.Android\MDP.Android.csproj", "{86BFF1D3-2B3D-4424-9C21-ECFDDA2BD551}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDP", "MDP\MDP\MDP.csproj", "{1ED494E7-04F9-480E-8303-DE148022314C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDP", "..\..\..\..\Downloads\exemplo_mdp (1)\MDP\MDP\MDP\MDP.csproj", "{1ED494E7-04F9-480E-8303-DE148022314C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDP.UWP", "MDP\MDP.UWP\MDP.UWP.csproj", "{216699E0-13C5-4902-ACD9-5B4F4BA2B6CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDP.UWP", "..\..\..\..\Downloads\exemplo_mdp (1)\MDP\MDP\MDP.UWP\MDP.UWP.csproj", "{216699E0-13C5-4902-ACD9-5B4F4BA2B6CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDP.iOS", "MDP\MDP.iOS\MDP.iOS.csproj", "{9613B542-E4F3-4D92-B742-B6567A61B87E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDP.iOS", "..\..\..\..\Downloads\exemplo_mdp (1)\MDP\MDP\MDP.iOS\MDP.iOS.csproj", "{9613B542-E4F3-4D92-B742-B6567A61B87E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

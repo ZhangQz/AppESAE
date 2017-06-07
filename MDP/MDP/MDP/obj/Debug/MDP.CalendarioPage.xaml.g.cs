@@ -11,7 +11,7 @@
 namespace MDP {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\zhang\\Downloads\\exemplo_mdp (1)\\MDP\\MDP\\MDP\\CalendarioPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\zhang\\Documents\\GitHub\\AppESAE\\MDP\\MDP\\MDP\\CalendarioPage.xaml")]
     public partial class CalendarioPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

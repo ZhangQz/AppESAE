@@ -17,19 +17,10 @@ namespace MDP
             InitializeComponent();
         }
 
-        private void btnPage1_Clicked(object sender, EventArgs e)
-        {
-        }
-
-        private void btnPage2_Clicked(object sender, EventArgs e)
-        {
-        }
-
         private void BtnCursos_Clicked(object sender, EventArgs e)
         {
             App.mdp.IsPresented = false;
             App.mdp.Detail.Navigation.PushAsync(new CursosPage());
-
         }
 
         private void BtnCalendario_Clicked(object sender, EventArgs e)
@@ -42,12 +33,12 @@ namespace MDP
         {
             App.mdp.IsPresented = false;
             App.mdp.Detail.Navigation.PushAsync(new DocumentosPage());
-
         }
 
         private void BtnSobreNos_Clicked(object sender, EventArgs e)
         {
-
+            App.mdp.IsPresented = false;
+            App.mdp.Detail.Navigation.PushAsync(new SobrePage());
         }
     }
 }

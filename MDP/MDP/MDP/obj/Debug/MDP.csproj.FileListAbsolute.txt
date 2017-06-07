@@ -21,3 +21,23 @@ C:\Users\zhang\Downloads\exemplo_mdp (1)\MDP\MDP\MDP\obj\Debug\MDP.CursosPage.xa
 C:\Users\zhang\Downloads\exemplo_mdp (1)\MDP\MDP\MDP\obj\Debug\MDP.Cursos.PosGradsPage.xaml.g.cs
 C:\Users\zhang\Downloads\exemplo_mdp (1)\MDP\MDP\MDP\obj\Debug\MDP.Cursos.MestradosPage.xaml.g.cs
 C:\Users\zhang\Downloads\exemplo_mdp (1)\MDP\MDP\MDP\obj\Debug\MDP.Cursos.OutrosCursosPage.xaml.g.cs
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP\MDP\MDP\obj\Debug\MDP.csprojResolveAssemblyReference.cache
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP\MDP\MDP\obj\Debug\MDP.MainPage.xaml.g.cs
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP\MDP\MDP\obj\Debug\MDP.App.xaml.g.cs
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP\MDP\MDP\obj\Debug\MDP.Master.xaml.g.cs
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP\MDP\MDP\obj\Debug\MDP.Detail.xaml.g.cs
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP\MDP\MDP\obj\Debug\MDP.CursosPage.xaml.g.cs
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP\MDP\MDP\obj\Debug\MDP.Cursos.PosGradsPage.xaml.g.cs
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP\MDP\MDP\obj\Debug\MDP.Cursos.MestradosPage.xaml.g.cs
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP\MDP\MDP\obj\Debug\MDP.Cursos.OutrosCursosPage.xaml.g.cs
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP\MDP\MDP\obj\Debug\MDP.Documentos.SumariosPage.xaml.g.cs
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP\MDP\MDP\obj\Debug\MDP.DocumentosPage.xaml.g.cs
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP\MDP\MDP\obj\Debug\MDP.Documentos.BoletinsPage.xaml.g.cs
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP\MDP\MDP\obj\Debug\MDP.Documentos.CriterioPage.xaml.g.cs
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP\MDP\MDP\obj\Debug\MDP.Documentos.CapasPage.xaml.g.cs
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP\MDP\MDP\obj\Debug\MDP.Documentos.EntregasPage.xaml.g.cs
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP\MDP\MDP\obj\Debug\MDP.Documentos.EstagiosPage.xaml.g.cs
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP\MDP\MDP\obj\Debug\MDP.CalendarioPage.xaml.g.cs
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP\MDP\MDP\obj\Debug\MDP.SobrePage.xaml.g.cs
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP\MDP\MDP\obj\Debug\MDP.dll
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP\MDP\MDP\obj\Debug\MDP.pdb

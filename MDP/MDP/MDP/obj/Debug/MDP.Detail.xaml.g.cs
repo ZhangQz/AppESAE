@@ -11,7 +11,7 @@
 namespace MDP {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\zhang\\Downloads\\exemplo_mdp (1)\\MDP\\MDP\\MDP\\Detail.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\zhang\\Documents\\GitHub\\AppESAE\\MDP\\MDP\\MDP\\Detail.xaml")]
     public partial class Detail : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

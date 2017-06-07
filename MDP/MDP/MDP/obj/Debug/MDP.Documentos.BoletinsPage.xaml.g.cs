@@ -11,8 +11,7 @@
 namespace MDP.Documentos {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\zhang\\Downloads\\exemplo_mdp (1)\\MDP\\MDP\\MDP\\Documentos\\BoletinsPage.xaml" +
-        "")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\zhang\\Documents\\GitHub\\AppESAE\\MDP\\MDP\\MDP\\Documentos\\BoletinsPage.xaml")]
     public partial class BoletinsPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

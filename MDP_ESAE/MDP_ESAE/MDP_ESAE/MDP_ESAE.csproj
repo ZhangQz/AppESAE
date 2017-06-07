@@ -53,6 +53,24 @@
     <Compile Include="Views\AboutPage.xaml.cs">
       <DependentUpon>AboutPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Documentos\BoletinsPage.xaml.cs">
+      <DependentUpon>BoletinsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Documentos\CapasPage.xaml.cs">
+      <DependentUpon>CapasPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Documentos\CriteriosPage.xaml.cs">
+      <DependentUpon>CriteriosPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Documentos\EntregasPage.xaml.cs">
+      <DependentUpon>EntregasPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Documentos\EstagiosPage.xaml.cs">
+      <DependentUpon>EstagiosPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Documentos\SumariosPage.xaml.cs">
+      <DependentUpon>SumariosPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\ItemDetailPage.xaml.cs">
       <DependentUpon>ItemDetailPage.xaml</DependentUpon>
     </Compile>
@@ -62,6 +80,12 @@
     <Compile Include="Views\NewItemPage.xaml.cs">
       <DependentUpon>NewItemPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\OfertasFormativas\CursosPage.xaml.cs">
+      <DependentUpon>CursosPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OfertasFormativas\InfoCursos\CursoPage.xaml.cs">
+      <DependentUpon>CursoPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\OfertasPage.xaml.cs">
       <DependentUpon>OfertasPage.xaml</DependentUpon>
     </Compile>
@@ -70,6 +94,9 @@
     </Compile>
     <Compile Include="Views\CalendarioPage.xaml.cs">
       <DependentUpon>CalendarioPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PerfilPage.xaml.cs">
+      <DependentUpon>PerfilPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\SobrePage.xaml.cs">
       <DependentUpon>SobrePage.xaml</DependentUpon>
@@ -133,6 +160,60 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\NewItemPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\PerfilPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Documentos\BoletinsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Documentos\CriteriosPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Documentos\CapasPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Documentos\EntregasPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Documentos\EstagiosPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Documentos\SumariosPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\OfertasFormativas\InfoCursos\CursoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\OfertasFormativas\CursosPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

@@ -16,5 +16,21 @@ namespace MDP_ESAE.Views
         {
             InitializeComponent();
         }
+
+        async void BtnMestrados_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new OfertasFormativas.CursosPage());
+        }
+
+        async void BtnPosGrads_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new OfertasFormativas.CursosPage());
+
+        }
+
+        async void BtnCursosLivres_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new OfertasFormativas.CursosPage());
+        }
     }
 }

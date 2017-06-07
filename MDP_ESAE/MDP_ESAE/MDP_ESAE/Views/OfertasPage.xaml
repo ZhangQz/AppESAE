@@ -5,6 +5,15 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Welcome to Xamarin Forms!" />
+            <Button x:Name="BtnMestrados"
+                    Text="Mestrados"
+                    Clicked="BtnMestrados_Clicked"/>
+            <Button x:Name="BtnPosGrads"
+                    Text="Pós Graduações"
+                    Clicked="BtnPosGrads_Clicked"/>
+            <Button x:Name="BtnCursosLivres"
+                    Text="Cursos Livres"
+                    Clicked="BtnCursosLivres_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

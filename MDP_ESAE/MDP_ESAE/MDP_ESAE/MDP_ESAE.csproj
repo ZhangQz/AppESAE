@@ -53,23 +53,8 @@
     <Compile Include="Views\AboutPage.xaml.cs">
       <DependentUpon>AboutPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Documentos\BoletinsPage.xaml.cs">
-      <DependentUpon>BoletinsPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\Documentos\CapasPage.xaml.cs">
-      <DependentUpon>CapasPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\Documentos\CriteriosPage.xaml.cs">
-      <DependentUpon>CriteriosPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\Documentos\EntregasPage.xaml.cs">
-      <DependentUpon>EntregasPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\Documentos\EstagiosPage.xaml.cs">
-      <DependentUpon>EstagiosPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\Documentos\SumariosPage.xaml.cs">
-      <DependentUpon>SumariosPage.xaml</DependentUpon>
+    <Compile Include="Views\Documentos\DocumentoPage.xaml.cs">
+      <DependentUpon>DocumentoPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ItemDetailPage.xaml.cs">
       <DependentUpon>ItemDetailPage.xaml</DependentUpon>
@@ -171,42 +156,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Views\Documentos\BoletinsPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Views\Documentos\CriteriosPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Views\Documentos\CapasPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Views\Documentos\EntregasPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Views\Documentos\EstagiosPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Views\Documentos\SumariosPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Views\OfertasFormativas\InfoCursos\CursoPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
@@ -214,6 +163,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\OfertasFormativas\CursosPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Documentos\DocumentoPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

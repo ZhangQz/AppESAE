@@ -5,7 +5,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Welcome to Xamarin Forms!" />
-            <Image Source="Imagem_fundo"/>
+            <Image Source="Imagem_fundo.jpg"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

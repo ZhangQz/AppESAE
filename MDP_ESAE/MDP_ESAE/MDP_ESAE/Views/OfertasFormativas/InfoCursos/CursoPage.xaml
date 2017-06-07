@@ -4,7 +4,47 @@
              x:Class="MDP_ESAE.Views.OfertasFormativas.InfoCursos.CursoPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin Forms!" />
+            <Label Text="Nome do Curos" />
+            <ContentView>
+                <Label Text="Apresentação"/>
+                <Label Text="texto de apresentação"/>
+            </ContentView>
+            <ContentView>
+                <Label Text="Apresentação"/>
+                <Label Text="texto de apresentação"/>
+            </ContentView>
+            <ContentView>
+                <Label Text="Apresentação"/>
+                <Label Text="texto de apresentação"/>
+            </ContentView>
+            <ContentView>
+                <Label Text="Apresentação"/>
+                <Label Text="texto de apresentação"/>
+            </ContentView>
+            <ContentView>
+                <Label Text="Apresentação"/>
+                <Label Text="texto de apresentação"/>
+            </ContentView>
+            <ContentView>
+                <Label Text="Apresentação"/>
+                <Label Text="texto de apresentação"/>
+            </ContentView>
+            <ContentView>
+                <Label Text="Apresentação"/>
+                <Label Text="texto de apresentação"/>
+            </ContentView>
+            <ContentView>
+                <Label Text="Apresentação"/>
+                <Label Text="texto de apresentação"/>
+            </ContentView>
+            <ContentView>
+                <Label Text="Apresentação"/>
+                <Label Text="texto de apresentação"/>
+            </ContentView>
+            <ContentView>
+                <Label Text="Apresentação"/>
+                <Label Text="texto de apresentação"/>
+            </ContentView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

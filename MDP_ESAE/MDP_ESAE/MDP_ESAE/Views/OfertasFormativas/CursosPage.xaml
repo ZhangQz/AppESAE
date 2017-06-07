@@ -5,6 +5,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Welcome to Xamarin Forms!" />
+            <ListView/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

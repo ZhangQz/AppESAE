@@ -16,5 +16,35 @@ namespace MDP_ESAE.Views
         {
             InitializeComponent();
         }
+
+        async void BtnBoletins_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Documentos.DocumentoPage());
+        }
+
+        async void BtnCriterios_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Documentos.DocumentoPage());
+        }
+
+        async void BtnCapas_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Documentos.DocumentoPage());
+        }
+
+        async void BtnEntregas_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Documentos.DocumentoPage());
+        }
+
+        async void BtnEstagios_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Documentos.DocumentoPage());
+        }
+
+        async void BtnSumarios_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Documentos.DocumentoPage());
+        }
     }
 }

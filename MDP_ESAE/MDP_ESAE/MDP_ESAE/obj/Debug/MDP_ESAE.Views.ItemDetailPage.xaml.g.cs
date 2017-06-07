@@ -11,7 +11,8 @@
 namespace MDP_ESAE.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\zhang\\Desktop\\Esae\\MDP_ESAE\\MDP_ESAE\\MDP_ESAE\\Views\\ItemDetailPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\zhang\\Documents\\GitHub\\AppESAE\\MDP_ESAE\\MDP_ESAE\\MDP_ESAE\\Views\\ItemDeta" +
+        "ilPage.xaml")]
     public partial class ItemDetailPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

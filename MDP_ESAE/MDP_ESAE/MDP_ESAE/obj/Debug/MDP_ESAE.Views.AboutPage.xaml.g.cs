@@ -11,7 +11,8 @@
 namespace MDP_ESAE.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\zhang\\Desktop\\Esae\\MDP_ESAE\\MDP_ESAE\\MDP_ESAE\\Views\\AboutPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\zhang\\Documents\\GitHub\\AppESAE\\MDP_ESAE\\MDP_ESAE\\MDP_ESAE\\Views\\AboutPag" +
+        "e.xaml")]
     public partial class AboutPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

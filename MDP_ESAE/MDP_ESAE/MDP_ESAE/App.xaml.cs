@@ -10,9 +10,12 @@ namespace MDP_ESAE
     {
         public App()
         {
+
             InitializeComponent();
 
+
             SetMainPage();
+
         }
 
         public static void SetMainPage()

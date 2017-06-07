@@ -4,7 +4,27 @@
              x:Class="MDP_ESAE.Views.DocumentosPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin Forms!" />
+            <Label Text="Welcome to Xamarin Forms!"
+                   VerticalOptions="End"/>
+            <Button x:Name="BtnBoletins"
+                    Text="Boletins"
+                    Clicked="BtnBoletins_Clicked"/>
+            <Button x:Name="BtnCriterios"
+                    Text="Critérios"
+                    Clicked="BtnCriterios_Clicked"
+                    />
+            <Button x:Name="BtnCapas"
+                    Text="Capas"
+                    Clicked="BtnCapas_Clicked"/>
+            <Button x:Name="BtnEntregas"
+                    Text="Entregas"
+                    Clicked="BtnEntregas_Clicked"/>
+            <Button x:Name="BtnEstagios"
+                    Text="Estágios"
+                    Clicked="BtnEstagios_Clicked"/>
+            <Button x:Name="BtnSumarios"
+                    Text="Sumários"
+                    Clicked="BtnSumarios_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

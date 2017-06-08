@@ -55,6 +55,19 @@
                     <Span Text="Apoiando a sua integração" FontAttributes="Bold" />
                     <Span Text="Contribuindo para o sucesso das atividades formativas." FontAttributes="Bold" />
                 </ListView>
+                <TextCell>
+                    <Span Text="Equipa&#10;" FontAttributes="Bold"/>
+                    <Span Text="Coordenação da ESAE:&#10;"/>
+                    <Span Text="Coordenadora:"/>
+                    <Span Text=" "/>
+                    <Span Text="Profª Doutora Margarida Couto&#10;" FontAttributes="Bold"/>
+                    <Span Text="Vice Coordenadora:"/>
+                    <Span Text=" "/>
+                    <Span Text ="Mestre Maria Pinto&#10;" FontAttributes="Bold" />
+                    <Span Text ="Email:" />
+                    <Span Text=" "/>
+                    <Span Text=" coordenacaoesae@ismt.pt " FontAttributes="Bold" ForegroundColor="{StaticResource Accent}"/>
+                </TextCell>
             </StackLayout>
         </StackLayout>
     </Grid>

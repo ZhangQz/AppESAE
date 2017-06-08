@@ -24,7 +24,7 @@ namespace MDP_ESAE
             {
                 Children =
                 {
-                    new NavigationPage(new ItemsPage())
+                    /*new NavigationPage(new ItemsPage())
                     {
                         Title = "Browse",
                         Icon = Device.OnPlatform("tab_feed.png",null,null)
@@ -33,7 +33,7 @@ namespace MDP_ESAE
                     {
                         Title = "About",
                         Icon = Device.OnPlatform("tab_about.png",null,null)
-                    },
+                    },*/
                     new NavigationPage(new PerfilPage())
                     {
                         Title = "Perfil"

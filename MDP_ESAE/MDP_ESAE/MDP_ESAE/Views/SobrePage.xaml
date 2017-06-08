@@ -23,7 +23,7 @@
                             <FormattedString.Spans>
                                 <Span Text="Escola Superior de Altos Estudos" FontAttributes="Bold" FontSize="22"/>
                                 <Span Text=" "/>
-                                <Span Text="1.0" ForegroundColor="{StaticResource LightTextColor}"/>
+                                <Span Text="ESAE" ForegroundColor="{StaticResource LightTextColor}"/>
                             </FormattedString.Spans>
                         </FormattedString>
                     </Label.FormattedText>
@@ -34,11 +34,9 @@
                             <FormattedString.Spans>
                                 <Span Text="A Escola Superior de Altos Estudos" />
                                 <Span Text=" "/>
-                                <Span Text="(ESAE)" FontAttributes="Bold" />
-                                <Span Text=" " />
                                 <Span Text="é o Departamento que congrega toda a formação pós-graduada da Instituição:"/>
                                 <Span Text=" "/>
-                                <Span Text="cursos de Pós-Graduação e cursos de 2º Ciclo / Mestrados."/>
+                                <Span Text="cursos de Pós-Graduação e cursos de 2º Ciclo / Mestrados." FontAttributes="Bold"/>
                             </FormattedString.Spans>
                         </FormattedString>
                     </Label.FormattedText>
@@ -47,15 +45,16 @@
                     <Label.FormattedText>
                         <FormattedString>
                             <FormattedString.Spans>
-                                <Span Text="It shares code with its" />
+                                <Span Text="A ESAE, através da sua equipa e de uma estreita colaboração com as Coordenações dos vários cursos, acompanha a formação dos estudantes:" />
                                 <Span Text=" "/>
-                                <Span Text="iOS, Android, and Windows" FontAttributes="Bold" />
-                                <Span Text=" "/>
-                                <Span Text="versions." />
                             </FormattedString.Spans>
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
+                <ListView>
+                    <Span Text="Apoiando a sua integração" FontAttributes="Bold" />
+                    <Span Text="Contribuindo para o sucesso das atividades formativas." FontAttributes="Bold" />
+                </ListView>
             </StackLayout>
         </StackLayout>
     </Grid>

@@ -51,7 +51,6 @@ C:\Users\zhang\Desktop\Esae\MDP_ESAE\MDP_ESAE\MDP_ESAE.Android\obj\Debug\android
 C:\Users\zhang\Desktop\Esae\MDP_ESAE\MDP_ESAE\MDP_ESAE.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\zhang\Desktop\Esae\MDP_ESAE\MDP_ESAE\MDP_ESAE.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\zhang\Desktop\Esae\MDP_ESAE\MDP_ESAE\MDP_ESAE.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-C:\Users\zhang\Documents\GitHub\AppESAE\MDP_ESAE\MDP_ESAE\MDP_ESAE.Android\obj\Debug\MDP_ESAE.Android.csprojResolveAssemblyReference.cache
 C:\Users\zhang\Documents\GitHub\AppESAE\MDP_ESAE\MDP_ESAE\MDP_ESAE.Android\bin\Debug\MDP_ESAE.Android.dll
 C:\Users\zhang\Documents\GitHub\AppESAE\MDP_ESAE\MDP_ESAE\MDP_ESAE.Android\bin\Debug\MDP_ESAE.Android.pdb
 C:\Users\zhang\Documents\GitHub\AppESAE\MDP_ESAE\MDP_ESAE\MDP_ESAE.Android\bin\Debug\com.companyname.MDP_ESAE.apk
@@ -81,6 +80,7 @@ C:\Users\zhang\Documents\GitHub\AppESAE\MDP_ESAE\MDP_ESAE\MDP_ESAE.Android\bin\D
 C:\Users\zhang\Documents\GitHub\AppESAE\MDP_ESAE\MDP_ESAE\MDP_ESAE.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\zhang\Documents\GitHub\AppESAE\MDP_ESAE\MDP_ESAE\MDP_ESAE.Android\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\zhang\Documents\GitHub\AppESAE\MDP_ESAE\MDP_ESAE\MDP_ESAE.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\zhang\Documents\GitHub\AppESAE\MDP_ESAE\MDP_ESAE\MDP_ESAE.Android\obj\Debug\MDP_ESAE.Android.csprojResolveAssemblyReference.cache
 C:\Users\zhang\Documents\GitHub\AppESAE\MDP_ESAE\MDP_ESAE\MDP_ESAE.Android\obj\Debug\MDP_ESAE.Android.dll
 C:\Users\zhang\Documents\GitHub\AppESAE\MDP_ESAE\MDP_ESAE\MDP_ESAE.Android\obj\Debug\MDP_ESAE.Android.pdb
 C:\Users\zhang\Documents\GitHub\AppESAE\MDP_ESAE\MDP_ESAE\MDP_ESAE.Android\obj\Debug\android\bin\com.companyname.MDP_ESAE.apk

@@ -1,0 +1,17 @@
+/Users/DavidPrata/Desktop/XApp6/XApp6/XApp6.Android/obj/Debug/XApp6.Android.csprojResolveAssemblyReference.cache
+/Users/DavidPrata/Desktop/XApp6/XApp6/XApp6.Android/obj/Debug/XbdMerge/Xamarin.Android.Support.Annotations.dll.stamp
+/Users/DavidPrata/Desktop/XApp6/XApp6/XApp6.Android/obj/Debug/XbdMerge/Xamarin.Android.Support.Compat.dll.stamp
+/Users/DavidPrata/Desktop/XApp6/XApp6/XApp6.Android/obj/Debug/XbdMerge/Xamarin.Android.Support.Core.UI.dll.stamp
+/Users/DavidPrata/Desktop/XApp6/XApp6/XApp6.Android/obj/Debug/XbdMerge/Xamarin.Android.Support.Core.Utils.dll.stamp
+/Users/DavidPrata/Desktop/XApp6/XApp6/XApp6.Android/obj/Debug/XbdMerge/Xamarin.Android.Support.Media.Compat.dll.stamp
+/Users/DavidPrata/Desktop/XApp6/XApp6/XApp6.Android/obj/Debug/XbdMerge/Xamarin.Android.Support.Fragment.dll.stamp
+/Users/DavidPrata/Desktop/XApp6/XApp6/XApp6.Android/obj/Debug/XbdMerge/Xamarin.Android.Support.Transition.dll.stamp
+/Users/DavidPrata/Desktop/XApp6/XApp6/XApp6.Android/obj/Debug/XbdMerge/Xamarin.Android.Support.v4.dll.stamp
+/Users/DavidPrata/Desktop/XApp6/XApp6/XApp6.Android/obj/Debug/XbdMerge/Xamarin.Android.Support.v7.CardView.dll.stamp
+/Users/DavidPrata/Desktop/XApp6/XApp6/XApp6.Android/obj/Debug/XbdMerge/Xamarin.Android.Support.v7.Palette.dll.stamp
+/Users/DavidPrata/Desktop/XApp6/XApp6/XApp6.Android/obj/Debug/XbdMerge/Xamarin.Android.Support.v7.RecyclerView.dll.stamp
+/Users/DavidPrata/Desktop/XApp6/XApp6/XApp6.Android/obj/Debug/XbdMerge/Xamarin.Android.Support.Vector.Drawable.dll.stamp
+/Users/DavidPrata/Desktop/XApp6/XApp6/XApp6.Android/obj/Debug/XbdMerge/Xamarin.Android.Support.Animated.Vector.Drawable.dll.stamp
+/Users/DavidPrata/Desktop/XApp6/XApp6/XApp6.Android/obj/Debug/XbdMerge/Xamarin.Android.Support.v7.AppCompat.dll.stamp
+/Users/DavidPrata/Desktop/XApp6/XApp6/XApp6.Android/obj/Debug/XbdMerge/Xamarin.Android.Support.Design.dll.stamp
+/Users/DavidPrata/Desktop/XApp6/XApp6/XApp6.Android/obj/Debug/XbdMerge/Xamarin.Android.Support.v7.MediaRouter.dll.stamp

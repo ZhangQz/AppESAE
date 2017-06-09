@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XApp6.InserirPessoaPage">
+
+    <StackLayout>
+        <!-- TÍTULO DA PÁGINA -->
+        <Label x:Name="lblTitulo"
+               Text="Página «Inserir Pessoa»"
+               TextColor="White"
+               FontSize="Medium"
+               HorizontalTextAlignment="Center"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="Start"
+               BackgroundColor="#00a76c"
+               HeightRequest="45"/>
+
+        <!-- NOME -->
+        <Label x:Name="lblNome"
+               Text="Nome:"
+               FontSize="Small"
+               HorizontalTextAlignment="Start"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="Center"/>
+
+        <Entry x:Name="eNome"
+               HorizontalOptions="FillAndExpand"/>
+
+        <!-- MORADA -->
+        <Label x:Name="lblMorada"
+               Text="Morada:"
+               FontSize="Small"
+               HorizontalTextAlignment="Start"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="Center"/>
+
+        <Entry x:Name="eMorada"
+               HorizontalOptions="FillAndExpand"/>
+
+        <!-- EMAIL -->
+        <Label x:Name="lblEmail"
+               Text="E-Mail:"
+               FontSize="Small"
+               HorizontalTextAlignment="Start"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="Center"/>
+
+        <Entry x:Name="eMail"
+                   HorizontalOptions="FillAndExpand"/>
+
+        <!-- GÉNERO -->
+        <Label x:Name="lblGenero"
+               Text="Género (M/F):"
+               FontSize="Small"
+               HorizontalTextAlignment="Start"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="Center"/>
+
+        <Entry x:Name="eGenero"
+                   HorizontalOptions="FillAndExpand"/>
+
+        <!-- IDADE -->
+        <Label x:Name="lblIdade"
+               Text="Idade:"
+               FontSize="Small"
+               HorizontalTextAlignment="Start"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="Center"/>
+
+        <Entry x:Name="eIdade"
+                   HorizontalOptions="FillAndExpand"/>
+
+        <!-- BOTÃO -->
+        <Button x:Name="btnInserirPessoa"
+                Text="Inserir"
+                TextColor="White"
+                BackgroundColor="#3f51b5"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Clicked="btnInserirPessoa_Clicked"/>
+    </StackLayout>
+</ContentPage>

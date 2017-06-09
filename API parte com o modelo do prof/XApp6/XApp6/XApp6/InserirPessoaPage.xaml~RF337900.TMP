@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XApp6.InserirPessoaPage">
+
+    <StackLayout BackgroundColor="#f2f2f2">
+        <Label x:Name="lblTitulo"
+               Text="Página «Inserir Pessoa»"
+               TextColor="White"
+               FontSize="Medium"
+               HorizontalTextAlignment="Center"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="Start"
+               BackgroundColor="#00a76c"/>
+
+            <Label x:Name="lblNome"
+                   Text="Nome:"
+                   FontSize="Small"
+                   TextColor="White"
+                   HorizontalOptions="End"
+                   VerticalOptions="Center"/>
+
+        <Entry x:Name="eNome"
+                   HorizontalOptions="FillAndExpand"
+                   TextColor="White"/>
+
+        <StackLayout Orientation="Horizontal">
+            <Label x:Name="lblMorada"
+                   Text="Morada:"
+                   FontSize="Small"
+                   TextColor="White"
+                   HorizontalOptions="End"
+                   VerticalOptions="Center"/>
+
+            <Entry x:Name="eMorada"
+                   HorizontalOptions="FillAndExpand"
+                   TextColor="White"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Label x:Name="lblEmail"
+                   Text="E-Mail:"
+                   FontSize="Small"
+                   TextColor="White"
+                   HorizontalOptions="End"
+                   VerticalOptions="Center"/>
+
+            <Entry x:Name="eMail"
+                   HorizontalOptions="FillAndExpand"
+                   TextColor="White"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Label x:Name="lblGenero"
+                   Text="Género (M/F):"
+                   FontSize="Small"
+                   TextColor="White"
+                   HorizontalOptions="End"
+                   VerticalOptions="Center"/>
+
+            <Entry x:Name="eGenero"
+                   HorizontalOptions="FillAndExpand"
+                   TextColor="White"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Label x:Name="lblIdade"
+                   Text="Idade:"
+                   FontSize="Small"
+                   TextColor="White"
+                   HorizontalOptions="End"
+                   VerticalOptions="Center"/>
+
+            <Entry x:Name="eIdade"
+                   HorizontalOptions="FillAndExpand"
+                   TextColor="White"/>
+        </StackLayout>
+
+        <Button x:Name="btnInserirPessoa"
+                Text="Inserir"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Clicked="btnInserirPessoa_Clicked"/>
+    </StackLayout>
+</ContentPage>

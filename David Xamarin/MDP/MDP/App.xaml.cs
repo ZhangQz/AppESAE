@@ -4,11 +4,13 @@ namespace MDP
 {
     public partial class App : Application
     {
+        public static MasterDetailPage mdp { get; set; }
+
         public App()
         {
             InitializeComponent();
 
-            MainPage = new MDPPage();
+            MainPage = new Views.MDPPage();
         }
 
         protected override void OnStart()

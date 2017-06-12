@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ESAE_CROSSPLATFORM.Views.Perfil.PerfilPage"
+             Title="Perfil - Login">
+    <ContentPage.Content>
+        <Grid ColumnSpacing="0" RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackLayout BackgroundColor="#38a0a0" Margin="0,0,0,0" VerticalOptions="FillAndExpand" HorizontalOptions="Fill" Grid.Row="0" Grid.Column="0" Padding="20,20,20,20">
+                <Label Text="10789" XAlign="Start" FontSize="Small" TextColor="White"/>
+                <Label Text="Mauro André Gonçalves Pinto" XAlign="Start" FontSize="Large" TextColor="White" FontAttributes="Bold" VerticalOptions="End"/>
+                <Button Text="Log Out"
+                        x:Name="BtnLogOut"
+                        Clicked="BtnLogOut_Clicked"
+                        VerticalOptions="EndAndExpand"
+                        HorizontalOptions="Start"
+                        BackgroundColor="White"/>
+
+            </StackLayout>
+
+            <StackLayout BackgroundColor="#38a0a0" Margin="0,0,0,0" VerticalOptions="FillAndExpand" HorizontalOptions="Fill" Grid.Row="0" Grid.Column="1" Padding="20,20,20,20">
+                <Label Text="Curso Inscrito" FontSize="Small" TextColor="White" XAlign="End"/>
+                <Label Text="Psicologia Clínica" XAlign="End" FontSize="Large" TextColor="White" FontAttributes="Bold" VerticalOptions="End"/>
+                <Button Text="Sobre ESAE"
+                        x:Name="BtnSobreEsae"
+                        Clicked="BtnSobreEsae_Clicked"
+                        VerticalOptions="EndAndExpand"
+                        HorizontalOptions="End"
+                        BackgroundColor="White"
+                        />
+            </StackLayout>
+            <StackLayout Grid.Row="1" Grid.Column="0" Margin="5,10,2,30" Padding="0,0,0,25">
+
+
+                    <Label Text="Propinas" FontSize="Medium" FontAttributes="Bold" Margin="10,10,10,10"/>
+
+
+                    <ScrollView Grid.Row="2">
+                        <StackLayout Margin="10,10,10,10">
+                            <Frame>
+                                <Label Text="Setembro - Pago"/>
+                                <!--<Switch x:Name="PropSet"
+                                    Toggled="PropSet_Toggled"/>-->
+                            </Frame>
+                            <Frame>
+                                <StackLayout>
+                                    <Label Text="Outubro - Pago" x:Name="TextOut"/>
+                                    <!--<Switch x:Name="PropOut"
+                                    Toggled="PropOut_Toggled"/>-->
+                                </StackLayout>
+                            </Frame>
+                            <Frame>
+                                <Label Text="Novembro - Pago"/>
+                            </Frame>
+                            <Frame>
+                                <Label Text="Dezembro - Pago"/>
+                            </Frame>
+                            <Frame>
+                                <Label Text="Janeiro - Pago"/>
+                            </Frame>
+                            <Frame>
+                                <Label Text="Fevereiro - Pago"/>
+                            </Frame>
+                            <Frame>
+                                <Label Text="Março - Por Pagar"/>
+                            </Frame>
+                            <Frame>
+                                <Label Text="Abril - Por Pagar"/>
+                            </Frame>
+                            <Frame>
+                                <Label Text="Maio - Por Pagar"/>
+                            </Frame>
+                        </StackLayout>
+                    </ScrollView>
+
+                </StackLayout>
+
+            <StackLayout Grid.Row="1" Grid.Column="1" Margin="5,10,2,30" Padding="0,0,0,25">
+
+
+                <Label Text="Eventos" FontSize="Medium" FontAttributes="Bold" Margin="10,10,10,10"/>
+
+
+                <ScrollView Grid.Row="2">
+                    <StackLayout Margin="10,10,10,10">
+                        <Frame OutlineColor="Aqua">
+
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <FormattedString.Spans>
+                                            <Span Text="Desperdicio na Africa&#x0a;"/>
+                                            <Span Text="22/05/17&#x0a;"/>
+                                            <Span Text="17:30 - 20:00&#x0a;"/>
+                                            <Span Text="BASL2&#x0a;"/>
+                                        </FormattedString.Spans>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                        </Frame>
+
+                        <Frame OutlineColor="Aqua">
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <FormattedString.Spans>
+                                            <Span Text="Desperdicio na Africa&#x0a;"/>
+                                            <Span Text="22/05/17&#x0a;"/>
+                                            <Span Text="17:30 - 20:00&#x0a;"/>
+                                            <Span Text="BASL2&#x0a;"/>
+                                        </FormattedString.Spans>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </Frame>
+
+                        <Frame OutlineColor="Aqua">
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <FormattedString.Spans>
+                                            <Span Text="Desperdicio na Africa&#x0a;"/>
+                                            <Span Text="22/05/17&#x0a;"/>
+                                            <Span Text="17:30 - 20:00&#x0a;"/>
+                                            <Span Text="BASL2&#x0a;"/>
+                                        </FormattedString.Spans>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </Frame>
+
+                        <Frame OutlineColor="Aqua">
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <FormattedString.Spans>
+                                            <Span Text="Desperdicio na Africa&#x0a;"/>
+                                            <Span Text="22/05/17&#x0a;"/>
+                                            <Span Text="17:30 - 20:00&#x0a;"/>
+                                            <Span Text="BASL2&#x0a;"/>
+                                        </FormattedString.Spans>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </Frame>
+
+                        <Frame OutlineColor="Aqua">
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <FormattedString.Spans>
+                                            <Span Text="Desperdicio na Africa&#x0a;"/>
+                                            <Span Text="22/05/17&#x0a;"/>
+                                            <Span Text="17:30 - 20:00&#x0a;"/>
+                                            <Span Text="BASL2&#x0a;"/>
+                                        </FormattedString.Spans>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </Frame>
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>

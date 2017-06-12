@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ESAE_CROSSPLATFORM.Views.Detail"
+             Title="ESAE"
+             BackgroundImage="ISMT_fundo.png">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Label Text="Bem Vindo!" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" TextColor="White" FontSize="36" FontAttributes="Bold"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

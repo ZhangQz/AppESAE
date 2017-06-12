@@ -16,6 +16,7 @@ namespace ESAE_CROSSPLATFORM.Views
         {
             InitializeComponent();
         }
+        
 
         private void BtnPerfil_Clicked(object sender, EventArgs e)
         {

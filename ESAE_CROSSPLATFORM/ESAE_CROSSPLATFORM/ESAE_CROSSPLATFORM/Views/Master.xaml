@@ -3,59 +3,79 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ESAE_CROSSPLATFORM.Views.Master"
              Title="Menu"
-             BackgroundColor="#006666">
+             BackgroundColor="#38a0a0">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="0,0,0,0">
 
             <Button Text="Perfil"
-                    Margin="0,100,0,0"
                     x:Name="BtnPerfil"
                     Clicked="BtnPerfil_Clicked"
                     HorizontalOptions="FillAndExpand"
                     VerticalOptions="FillAndExpand"
-                    BackgroundColor="White"/>
+                    Margin="20,75,20,0"
+                    BackgroundColor="White"
+                    FontSize="Default"
+                    FontAttributes="Bold"/>
             
             <Button Text="Documentos"
                     x:Name="BtnDocumentos"
                     Clicked="BtnDocumentos_Clicked"
                     HorizontalOptions="FillAndExpand"
                     VerticalOptions="FillAndExpand"
-                    BackgroundColor="White"/>
-            
+                    Margin="20,0,20,0"
+                    BackgroundColor="White"
+                    FontSize="Default"
+                    FontAttributes="Bold"/>
+
             <Button Text="Horários"
                     x:Name="BtnHorarios"
                     Clicked="BtnHorarios_Clicked"
                     HorizontalOptions="FillAndExpand"
                     VerticalOptions="FillAndExpand"
-                    BackgroundColor="White"/>
-            
+                    Margin="20,0,20,0"
+                    BackgroundColor="White"
+                    FontSize="Default"
+                    FontAttributes="Bold"/>
+
             <Button Text="Eventos"
                     x:Name="BtnEventos"
                     Clicked="BtnEventos_Clicked"
                     HorizontalOptions="FillAndExpand"
                     VerticalOptions="FillAndExpand"
-                    BackgroundColor="White"/>
+                    Margin="20,0,20,0"
+                    BackgroundColor="White"
+                    FontSize="Default"
+                    FontAttributes="Bold"/>
             
             <Button Text="Ofertas Formativas"
                     x:Name="BtnOfertas"
                     Clicked="BtnOfertas_Clicked"
                     HorizontalOptions="FillAndExpand"
                     VerticalOptions="FillAndExpand"
-                    BackgroundColor="White"/>
+                    Margin="20,0,20,0"
+                    BackgroundColor="White"
+                    FontSize="Default"
+                    FontAttributes="Bold"/>
             
             <Button Text="Mapa de Docentes"
                     x:Name="BtnDocentes"
                     Clicked="BtnDocentes_Clicked"
                     HorizontalOptions="FillAndExpand"
                     VerticalOptions="FillAndExpand"
-                    BackgroundColor="White"/>
+                    Margin="20,0,20,0"
+                    BackgroundColor="White"
+                    FontSize="Default"
+                    FontAttributes="Bold"/>
             
             <Button Text="Sobre ESAE"
                     x:Name="BtnSobre"
                     Clicked="BtnSobre_Clicked"
                     HorizontalOptions="FillAndExpand"
                     VerticalOptions="FillAndExpand"
-                    BackgroundColor="White"/>
+                    Margin="20,0,20,0"
+                    BackgroundColor="White"
+                    FontSize="Default"
+                    FontAttributes="Bold"/>
             
         </StackLayout>
     </ContentPage.Content>

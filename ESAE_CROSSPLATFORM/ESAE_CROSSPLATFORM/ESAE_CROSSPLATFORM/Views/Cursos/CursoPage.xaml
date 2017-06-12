@@ -15,7 +15,10 @@
             <ScrollView>
                 <StackLayout>
                     <Frame>
-                        <Label Text="Apresentação do Curso"/>
+                        <StackLayout>
+                            <Label Text="Apresentação do Curso"/>
+                            <Label Text="Texto de apresentação do curso"/>
+                        </StackLayout>
                     </Frame>
                 </StackLayout>
             </ScrollView>

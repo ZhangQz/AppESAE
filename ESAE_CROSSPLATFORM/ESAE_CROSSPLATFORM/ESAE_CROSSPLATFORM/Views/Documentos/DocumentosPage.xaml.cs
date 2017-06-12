@@ -21,41 +21,41 @@ namespace ESAE_CROSSPLATFORM.Views.Documentos
         {
 
             App.esae_crossplatform.IsPresented = false;
-            App.esae_crossplatform.Detail.Navigation.PushAsync(new Documentos.DocumentoPage());
+            App.esae_crossplatform.Detail.Navigation.PushAsync(new DocumentoPage());
         }
 
         private void BtnCriterios_Clicked(object sender, EventArgs e)
         {
             App.esae_crossplatform.IsPresented = false;
-            App.esae_crossplatform.Detail.Navigation.PushAsync(new Documentos.DocumentoPage());
+            App.esae_crossplatform.Detail.Navigation.PushAsync(new DocumentoPage());
 
         }
 
         private void BtnCapas_Clicked(object sender, EventArgs e)
         {
             App.esae_crossplatform.IsPresented = false;
-            App.esae_crossplatform.Detail.Navigation.PushAsync(new Documentos.DocumentoPage());
+            App.esae_crossplatform.Detail.Navigation.PushAsync(new DocumentoPage());
 
         }
 
         private void BtnEntregas_Clicked(object sender, EventArgs e)
         {
             App.esae_crossplatform.IsPresented = false;
-            App.esae_crossplatform.Detail.Navigation.PushAsync(new Documentos.DocumentoPage());
+            App.esae_crossplatform.Detail.Navigation.PushAsync(new DocumentoPage());
 
         }
 
         private void BtnEstagios_Clicked(object sender, EventArgs e)
         {
             App.esae_crossplatform.IsPresented = false;
-            App.esae_crossplatform.Detail.Navigation.PushAsync(new Documentos.DocumentoPage());
+            App.esae_crossplatform.Detail.Navigation.PushAsync(new DocumentoPage());
 
         }
 
         private void BtnOutrosDocs_Clicked(object sender, EventArgs e)
         {
             App.esae_crossplatform.IsPresented = false;
-            App.esae_crossplatform.Detail.Navigation.PushAsync(new Documentos.DocumentoPage());
+            App.esae_crossplatform.Detail.Navigation.PushAsync(new DocumentoPage());
 
         }
     }

@@ -6,7 +6,7 @@
              BackgroundImage="ISMT_fundo.png">
     <ContentPage.Content>
         <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-            <Label Text="Bem Vindo!" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" TextColor="White" FontSize="36" FontAttributes="Bold"/>
+            <Label Text="Bem &#x0a;Vindo!" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" TextColor="White" FontSize="48" FontAttributes="Bold" XAlign="End"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

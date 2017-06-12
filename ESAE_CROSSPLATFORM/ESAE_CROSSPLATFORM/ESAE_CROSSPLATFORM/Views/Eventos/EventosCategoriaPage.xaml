@@ -5,7 +5,7 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-                <Label Text="Psicologia Clínica"/>
+                <TextCell Text="Psicologia Clínica"/>
                 <Frame>
                     <StackLayout>
                         <Label Text="Nome do Evento"/>
@@ -24,7 +24,7 @@
                         <Label Text="Data/Hora/Local"/>
                     </StackLayout>
                 </Frame>
-                <Label Text="Serviço Social"/>
+                <TextCell Text="Serviço Social"/>
                 <Frame>
                     <StackLayout>
                         <Label Text="Nome do Evento"/>
@@ -43,7 +43,7 @@
                         <Label Text="Data/Hora/Local"/>
                     </StackLayout>
                 </Frame>
-                <Label Text="Gestão de Recursos Humanos"/>
+                <TextCell Text="Gestão de Recursos Humanos"/>
                 <Frame>
                     <StackLayout>
                         <Label Text="Nome do Evento"/>

@@ -44,7 +44,7 @@
                     <Label Text="Propinas" FontSize="Medium" FontAttributes="Bold" Margin="10,10,10,10"/>
 
 
-                    <ScrollView Grid.Row="2">
+                    <ScrollView Grid.Row="2"> <!--Mudar para Button, T U D O ! ! -->
                         <StackLayout Margin="10,10,10,10">
                             <Frame>
                                 <Label Text="Setembro - Pago"/>

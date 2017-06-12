@@ -1,66 +1,67 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ESAE_CROSSPLATFORM.Views.Documentos.DocumentoPage">
+             x:Class="ESAE_CROSSPLATFORM.Views.Documentos.DocumentoCategoriaPage">
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-                <TextCell>
+                <TextCell Text="Psicologia Clínica"/>
+                <Frame>
                     <StackLayout>
                         <Label Text="Titulo do Documento"/>
-                        <Button Text="Descaregar"
-                            x:Name="BtnDownload"
-                            Clicked="BtnDownload_Clicked"/>
+                        <Button Text="Descaregar"/>
                     </StackLayout>
-                </TextCell>
-                <TextCell>
-                    <StackLayout>
-                        <Label Text="Titulo do Documento"/>
-                        <Button Text="Descarregar"/>
-                    </StackLayout>
-                </TextCell>
-                <TextCell>
+                </Frame>
+                <Frame>
                     <StackLayout>
                         <Label Text="Titulo do Documento"/>
                         <Button Text="Descarregar"/>
                     </StackLayout>
-                </TextCell>
-                <TextCell>
+                </Frame>
+                <TextCell Text="Serviço Social"/>
+                <Frame>
                     <StackLayout>
                         <Label Text="Titulo do Documento"/>
                         <Button Text="Descarregar"/>
                     </StackLayout>
-                </TextCell>
-                <TextCell>
+                </Frame>
+                <Frame>
                     <StackLayout>
                         <Label Text="Titulo do Documento"/>
                         <Button Text="Descarregar"/>
                     </StackLayout>
-                </TextCell>
-                <TextCell>
+                </Frame>
+                <Frame>
                     <StackLayout>
                         <Label Text="Titulo do Documento"/>
                         <Button Text="Descarregar"/>
                     </StackLayout>
-                </TextCell>
-                <TextCell>
+                </Frame>
+                <Frame>
                     <StackLayout>
                         <Label Text="Titulo do Documento"/>
                         <Button Text="Descarregar"/>
                     </StackLayout>
-                </TextCell>
-                <TextCell>
+                </Frame>
+                <TextCell Text=""
+                <Frame>
                     <StackLayout>
                         <Label Text="Titulo do Documento"/>
                         <Button Text="Descarregar"/>
                     </StackLayout>
-                </TextCell>
-                <TextCell>
+                </Frame>
+                <Frame>
                     <StackLayout>
                         <Label Text="Titulo do Documento"/>
                         <Button Text="Descarregar"/>
                     </StackLayout>
-                </TextCell>
+                </Frame>
+                <Frame>
+                    <StackLayout>
+                        <Label Text="Titulo do Documento"/>
+                        <Button Text="Descarregar"/>
+                    </StackLayout>
+                </Frame>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

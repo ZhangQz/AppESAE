@@ -27,7 +27,7 @@
                     FontSize="Default"
                     FontAttributes="Bold"/>
 
-            <Button Text="Horários"
+            <Button Text="As minhas aulas"
                     x:Name="BtnHorarios"
                     Clicked="BtnHorarios_Clicked"
                     HorizontalOptions="FillAndExpand"

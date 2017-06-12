@@ -8,20 +8,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ESAE_CROSSPLATFORM.Views.Documentos {
+namespace ESAE_CROSSPLATFORM.Views.Eventos {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\zhang\\Documents\\AppESAE\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM\\ESAE_CROSS" +
-        "PLATFORM\\Views\\Documentos\\DocumentoPage.xaml")]
-    public partial class DocumentoPage : global::Xamarin.Forms.ContentPage {
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Button BtnDownload;
+        "PLATFORM\\Views\\Perfil\\EventosPage.xaml")]
+    public partial class EventosPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(DocumentoPage));
-            BtnDownload = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "BtnDownload");
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(EventosPage));
         }
     }
 }

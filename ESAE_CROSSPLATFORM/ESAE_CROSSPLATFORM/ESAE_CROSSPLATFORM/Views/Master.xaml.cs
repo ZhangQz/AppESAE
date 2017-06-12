@@ -51,6 +51,8 @@ namespace ESAE_CROSSPLATFORM.Views
 
         private void BtnSobre_Clicked(object sender, EventArgs e)
         {
+            App.esae_crossplatform.IsPresented = false;
+            App.esae_crossplatform.Detail.Navigation.PushAsync(new Sobre.SobrePage());
 
         }
 

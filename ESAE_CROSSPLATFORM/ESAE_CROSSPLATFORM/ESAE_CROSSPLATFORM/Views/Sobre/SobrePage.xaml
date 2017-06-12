@@ -4,7 +4,31 @@
              x:Class="ESAE_CROSSPLATFORM.Views.Sobre.SobrePage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin Forms!" />
+            <Image Source="Perfil_fundo.png"
+                   Aspect="AspectFit"/>
+            <Label Text="ESCOL SUPERIOR &#x0a;DE ALTOS ESTUDOS" HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand"/>
+            <ScrollView>
+                <StackLayout>
+                    <Frame>
+                        <StackLayout>
+                            <Label Text=" Apresentação"/>
+                            <Label Text="Percebemos, cada vez mais, que a estrutura atual da organização auxilia a preparação e a composição das diversas correntes de pensamento."/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame>
+                        <StackLayout>
+                            <Label Text="Equipa"/>
+                            <Label Text="Desta maneira, o comprometimento entre as equipes faz parte de um processo de gerenciamento do retorno esperado a longo prazo."/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame>
+                        <StackLayout>
+                            <Label Text="Horário de funcionamento"/>
+                            <Label Text="2ª a 6ª, das 9h30 às 12h e das 14h às 17hm."/>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace ESAE_CROSSPLATFORM.Views.MinhasAulas
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MinhasAulasPage : ContentPage
+    public partial class MinhasAulasPage : CarouselPage
     {
         public MinhasAulasPage()
         {

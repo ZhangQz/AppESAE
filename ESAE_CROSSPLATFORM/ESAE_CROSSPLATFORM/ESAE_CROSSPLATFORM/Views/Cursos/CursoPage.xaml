@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ESAE_CROSSPLATFORM.Views.Cursos.CursoPage">
+             x:Class="ESAE_CROSSPLATFORM.Views.Cursos.CursoPage"
+             Title="Curso X">
     <ContentPage.Content>
         <StackLayout>
             <StackLayout BackgroundColor="#5f94af" Padding="20,20,20,10">
@@ -12,42 +13,54 @@
             <ScrollView Margin="20,10,20,10">
                 <StackLayout>
                     <Button Text="X Eventos Disponíveis"
-                                x:Name="BtnPG_AM"
-                                Clicked="BtnPG_AM_Clicked"/>
-                    <Label Text="Apresentação do Curso" FontAttributes="Bold" FontSize="Medium"/>
+                            x:Name="BtnPG_AM"
+                            Clicked="BtnPG_AM_Clicked"
+                            BackgroundColor="White"
+                            Margin="0,10,0,0"/>
+                    <Label Text="Apresentação do Curso" FontAttributes="Bold" FontSize="Medium" Margin="10,10,0,10"/>
                     <Frame>
                         <Label Text="O curso de Pós-Graduação em Audiovisuais e Multimédia visa a capacitação dos discentes de conhecimentos e competências para a produção e implementação de projetos na área dos Audiovisuais e Multimédia, com particular destaque para Conteúdos Multiplataforma, Vídeo, Documentário e Digital Storytelling."/>
                     </Frame>
-                    <Label Text="Coordenação Científica" FontAttributes="Bold" FontSize="Medium"/>
+                    <Label Text="Coordenação Científica" FontAttributes="Bold" FontSize="Medium" Margin="10,0,0,10"/>
                     <Frame>
                         <StackLayout>
                             <Label Text="Drª Inês Amaral" FontAttributes="Bold" FontSize="Medium"/>
                             <Label Text=" inesamaral@ismt.pt" FontAttributes="None" FontSize="Default" TextColor="#DD4400"/>
                         </StackLayout>
                     </Frame>
-                    <Label Text="Disciplinas" FontAttributes="Bold" FontSize="Medium"/>
-                    <Frame>
-                        <Label Text="Comunicação, Tecnologia e Design da Interação"/>
-                    </Frame>
-                    <Frame>
-                        <Label Text="Laboratório de Vídeo Aplicado"/>
-                    </Frame>
-                    <Frame>
-                        <Label Text="Conteúdo Multiplataformas"/>
-                    </Frame>
-                    <Frame>
-                        <Label Text="Documentário Interativo"/>
-                    </Frame>
-                    <Frame>
-                        <Label Text="Digital Storytelling"/>
-                    </Frame>
-                    <Frame>
-                        <Label Text="Design para Vídeo"/>
-                    </Frame>
-                    <Frame>
-                        <Label Text="Marketing e Gestão de Projetos"/>
-                    </Frame>
-                    <Label Text="Propinas" FontAttributes="Bold" FontSize="Medium"/>
+                    <Label Text="Disciplinas" FontAttributes="Bold" FontSize="Medium" Margin="10,0,0,10"/>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackLayout Grid.Column="0">
+                            <Frame>
+                                <Label Text="Comunicação, Tecnologia e Design da Interação"/>
+                            </Frame>
+                            <Frame>
+                                <Label Text="Laboratório de Vídeo Aplicado"/>
+                            </Frame>
+                            <Frame>
+                                <Label Text="Conteúdo Multiplataformas"/>
+                            </Frame>
+                        </StackLayout>
+                        <StackLayout Grid.Column="1">
+                            <Frame>
+                                <Label Text="Documentário Interativo"/>
+                            </Frame>
+                            <Frame>
+                                <Label Text="Digital Storytelling"/>
+                            </Frame>
+                            <Frame>
+                                <Label Text="Design para Vídeo"/>
+                            </Frame>
+                            <Frame>
+                                <Label Text="Marketing e Gestão de Projetos"/>
+                            </Frame>
+                        </StackLayout>
+                    </Grid>
+                    <Label Text="Propinas" FontAttributes="Bold" FontSize="Medium" Margin="10,0,0,10"/>
                     <StackLayout>
                         <Grid>
                             <Grid.ColumnDefinitions>

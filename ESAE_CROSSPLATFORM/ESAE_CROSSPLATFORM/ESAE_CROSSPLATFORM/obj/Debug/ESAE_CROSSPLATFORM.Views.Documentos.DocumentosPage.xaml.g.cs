@@ -11,8 +11,8 @@
 namespace ESAE_CROSSPLATFORM.Views.Documentos {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\zhang\\Documents\\GitHub\\AppESAE\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM\\ESA" +
-        "E_CROSSPLATFORM\\Views\\Documentos\\DocumentosPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\zhang\\Documents\\AppESAE\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM\\ESAE_CROSS" +
+        "PLATFORM\\Views\\Documentos\\DocumentosPage.xaml")]
     public partial class DocumentosPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

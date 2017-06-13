@@ -25,6 +25,28 @@
                             <Label Text=" inesamaral@ismt.pt" FontAttributes="None" FontSize="Default" TextColor="#DD4400"/>
                         </StackLayout>
                     </Frame>
+                    <Label Text="Disciplinas" FontAttributes="Bold" FontSize="Medium"/>
+                    <Frame>
+                        <Label Text="Comunicação, Tecnologia e Design da Interação"/>
+                    </Frame>
+                    <Frame>
+                        <Label Text="Laboratório de Vídeo Aplicado"/>
+                    </Frame>
+                    <Frame>
+                        <Label Text="Conteúdo Multiplataformas"/>
+                    </Frame>
+                    <Frame>
+                        <Label Text="Documentário Interativo"/>
+                    </Frame>
+                    <Frame>
+                        <Label Text="Digital Storytelling"/>
+                    </Frame>
+                    <Frame>
+                        <Label Text="Design para Vídeo"/>
+                    </Frame>
+                    <Frame>
+                        <Label Text="Marketing e Gestão de Projetos"/>
+                    </Frame>
                     <Label Text="Propinas" FontAttributes="Bold" FontSize="Medium"/>
                     <StackLayout>
                         <Grid>

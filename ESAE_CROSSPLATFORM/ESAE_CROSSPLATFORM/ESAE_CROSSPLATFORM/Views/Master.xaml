@@ -46,7 +46,7 @@
                     BackgroundColor="White"
                     FontSize="Default"
                     FontAttributes="Bold"/>
-            
+
             <Button Text="Ofertas Formativas"
                     x:Name="BtnOfertas"
                     Clicked="BtnOfertas_Clicked"
@@ -56,23 +56,13 @@
                     BackgroundColor="White"
                     FontSize="Default"
                     FontAttributes="Bold"/>
-            
-            <Button Text="Mapa de Docentes"
-                    x:Name="BtnDocentes"
-                    Clicked="BtnDocentes_Clicked"
-                    HorizontalOptions="FillAndExpand"
-                    VerticalOptions="FillAndExpand"
-                    Margin="20,0,20,0"
-                    BackgroundColor="White"
-                    FontSize="Default"
-                    FontAttributes="Bold"/>
-            
+
             <Button Text="Sobre ESAE"
                     x:Name="BtnSobre"
                     Clicked="BtnSobre_Clicked"
                     HorizontalOptions="FillAndExpand"
                     VerticalOptions="FillAndExpand"
-                    Margin="20,0,20,0"
+                    Margin="20,0,20,20"
                     BackgroundColor="White"
                     FontSize="Default"
                     FontAttributes="Bold"/>

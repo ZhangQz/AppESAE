@@ -72,6 +72,9 @@
     <Compile Include="Views\Master.xaml.cs">
       <DependentUpon>Master.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\MinhasAulas\MinhasAulasPage.xaml.cs">
+      <DependentUpon>MinhasAulasPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Perfil\LogInPage.xaml.cs">
       <DependentUpon>LogInPage.xaml</DependentUpon>
     </Compile>
@@ -180,6 +183,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\Perfil\LogInPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\MinhasAulas\MinhasAulasPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

@@ -7,17 +7,17 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace ESAE_CROSSPLATFORM.Views.Cursos
+namespace ESAE_CROSSPLATFORM.Views.Perfil
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class CursoPage : ContentPage
+    public partial class LogInPage : ContentPage
     {
-        public CursoPage()
+        public LogInPage()
         {
             InitializeComponent();
         }
 
-        private void BtnPG_AM_Clicked(object sender, EventArgs e)
+        private void BtnLog_Clicked(object sender, EventArgs e)
         {
 
         }

@@ -3,33 +3,51 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ESAE_CROSSPLATFORM.Views.Cursos.CursoPage">
     <ContentPage.Content>
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-            <StackLayout Grid.Row="0">
-                <StackLayout BackgroundColor="#5f94af" Padding="20,20,20,10">
-                    <Label Text="Nome do Curso" FontSize="Large" TextColor="White"/>
-                    <Label Text="120 ETSC" FontSize="Medium" TextColor="LightGray"/>
-                </StackLayout>
-                <ScrollView>
-                    <StackLayout>
-                        <Frame>
-                            <StackLayout>
-                                <Label Text="Apresentação do Curso" FontAttributes="Bold" FontSize="Medium"/>
-                                <Frame>
-                                    <Label Text="O curso de Pós-Graduação em Audiovisuais e Multimédia visa a capacitação dos discentes de conhecimentos e competências para a produção e implementação de projetos na área dos Audiovisuais e Multimédia, com particular destaque para Conteúdos Multiplataforma, Vídeo, Documentário e Digital Storytelling."/>
-                                </Frame>
-                                <Label Text="Destinatários" FontAttributes="Bold" FontSize="Medium"/>
-                                <Frame>
-                                    <Label Text="O curso de Pós-Graduação em Audiovisuais e Multimédia destina-se a profissionais de Multimédia, Comunicação, Publicidade, Marketing ou Design que queiram pretendam desenvolver ou aprofundar as suas competências na área dos Audiovisuais e Multimédia."/>
-                                </Frame>
-                            </StackLayout>
-                        </Frame>
-                    </StackLayout>
-                </ScrollView>
+        <StackLayout>
+            <StackLayout BackgroundColor="#5f94af" Padding="20,20,20,10">
+                <Label Text="Pós Graduação" FontSize="Default" TextColor="LightGray"/>
+                <Label Text="Nome do Curso" FontSize="Large" TextColor="White"/>
+                <Label Text="120 ETSC" FontSize="Medium" TextColor="LightGray"/>
             </StackLayout>
-        </Grid>
+            <ScrollView Margin="20,10,20,10">
+                <StackLayout>
+                    <Button Text="X Eventos Disponíveis"
+                                x:Name="BtnPG_AM"
+                                Clicked="BtnPG_AM_Clicked"/>
+                    <Label Text="Apresentação do Curso" FontAttributes="Bold" FontSize="Medium"/>
+                    <Frame>
+                        <Label Text="O curso de Pós-Graduação em Audiovisuais e Multimédia visa a capacitação dos discentes de conhecimentos e competências para a produção e implementação de projetos na área dos Audiovisuais e Multimédia, com particular destaque para Conteúdos Multiplataforma, Vídeo, Documentário e Digital Storytelling."/>
+                    </Frame>
+                    <Label Text="Coordenação Científica" FontAttributes="Bold" FontSize="Medium"/>
+                    <Frame>
+                        <StackLayout>
+                            <Label Text="Drª Inês Amaral" FontAttributes="Bold" FontSize="Medium"/>
+                            <Label Text=" inesamaral@ismt.pt" FontAttributes="None" FontSize="Default" TextColor="#DD4400"/>
+                        </StackLayout>
+                    </Frame>
+                    <Label Text="Propinas" FontAttributes="Bold" FontSize="Medium"/>
+                    <StackLayout>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Frame Grid.Column="0">
+                                <StackLayout>
+                                    <Label Text="175 Horas" FontAttributes="Bold" FontSize="Medium"/>
+                                    <Label Text="&#x0a;Duração do Curso" TextColor="DarkGray"/>
+                                </StackLayout>
+                            </Frame>
+                            <Frame Grid.Column="1">
+                                <StackLayout>
+                                    <Label Text="1350,00 €" FontAttributes="Bold" FontSize="Medium"/>
+                                    <Label Text="&#x0a;Propina total do Curso" TextColor="DarkGray"/>
+                                </StackLayout>
+                            </Frame>
+                        </Grid>
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

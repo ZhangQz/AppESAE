@@ -16,5 +16,11 @@ namespace ESAE_CROSSPLATFORM.Views
         {
             InitializeComponent();
         }
+
+        private void BtnEntrar_Clicked(object sender, EventArgs e)
+        {
+            App.esae_crossplatform.IsPresented = false;
+            App.esae_crossplatform.Detail.Navigation.PushAsync(new Perfil.LogInPage());
+        }
     }
 }

@@ -5,8 +5,17 @@
              Title="ESAE"
              BackgroundImage="ISMT_fundo.png">
     <ContentPage.Content>
-        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-            <Label Text="Bem &#x0a;Vindo!" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" TextColor="White" FontSize="48" FontAttributes="Bold" XAlign="End"/>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Label Text="Bem &#x0a;Vindo!" TextColor="White" FontSize="72" FontAttributes="Bold" XAlign="Center"/>
+            <Button Text="Entrar"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    x:Name="BtnEntrar"
+                    Clicked="BtnEntrar_Clicked"
+                    BackgroundColor="White"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

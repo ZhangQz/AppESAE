@@ -1,35 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ESAE_CROSSPLATFORM.Views.Sobre.SobrePage">
+             x:Class="ESAE_CROSSPLATFORM.Views.Sobre.SobrePage"
+             Title="Escola Superior de ALtos estudos">
     <ContentPage.Content>
-        <StackLayout>
-            <Image Source="Perfil_fundo.png"
-                   Aspect="AspectFit"/>
-            <Label Text="ESCOL SUPERIOR &#x0a;DE ALTOS ESTUDOS" HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand"/>
+        <StackLayout Margin="10,10,10,10">
+            <Image Source="Perfil_Fundo.png"
+                   Aspect="AspectFill"/>
             <ScrollView>
                 <StackLayout>
+                    <Label Text="Apresentação" FontSize="Large" FontAttributes="Bold"/>
                     <Frame>
                         <StackLayout>
-                            <Label Text=" Apresentação"/>
                             <Label Text="Percebemos, cada vez mais, que a estrutura atual da organização auxilia a preparação e a composição das diversas correntes de pensamento."/>
                         </StackLayout>
                     </Frame>
+                    <Label Text="Equipa" FontSize="Large" FontAttributes="Bold"/>
                     <Frame>
                         <StackLayout>
-                            <Label Text="Equipa"/>
                             <Label Text="Desta maneira, o comprometimento entre as equipes faz parte de um processo de gerenciamento do retorno esperado a longo prazo."/>
                         </StackLayout>
                     </Frame>
+                    <Label Text="Horário de funcionamento" FontSize="Large" FontAttributes="Bold"/>
                     <Frame>
                         <StackLayout>
-                            <Label Text="Horário de funcionamento"/>
                             <Label Text="2ª a 6ª, das 9h30 às 12h e das 14h às 17hm."/>
                         </StackLayout>
                     </Frame>
+                    <Label Text="Contactos" FontSize="Large" FontAttributes="Bold"/>
                     <Frame>
                         <StackLayout>
-                            <Label Text="Contactos"/>
                             <Label Text="+XXX xx x xx x xxx"/>
                         </StackLayout>
                     </Frame>

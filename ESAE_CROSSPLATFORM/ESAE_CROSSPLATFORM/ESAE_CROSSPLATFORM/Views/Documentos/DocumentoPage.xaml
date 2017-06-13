@@ -5,62 +5,62 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-                <TextCell>
+                <Frame>
                     <StackLayout>
                         <Label Text="Titulo do Documento"/>
                         <Button Text="Descaregar"
                             x:Name="BtnDownload"
                             Clicked="BtnDownload_Clicked"/>
                     </StackLayout>
-                </TextCell>
-                <TextCell>
+                </Frame>
+                <Frame>
                     <StackLayout>
                         <Label Text="Titulo do Documento"/>
                         <Button Text="Descarregar"/>
                     </StackLayout>
-                </TextCell>
-                <TextCell>
+                </Frame>
+                <Frame>
                     <StackLayout>
                         <Label Text="Titulo do Documento"/>
                         <Button Text="Descarregar"/>
                     </StackLayout>
-                </TextCell>
-                <TextCell>
+                </Frame>
+                <Frame>
                     <StackLayout>
                         <Label Text="Titulo do Documento"/>
                         <Button Text="Descarregar"/>
                     </StackLayout>
-                </TextCell>
-                <TextCell>
+                </Frame>
+                <Frame>
                     <StackLayout>
                         <Label Text="Titulo do Documento"/>
                         <Button Text="Descarregar"/>
                     </StackLayout>
-                </TextCell>
-                <TextCell>
+                </Frame>
+                <Frame>
                     <StackLayout>
                         <Label Text="Titulo do Documento"/>
                         <Button Text="Descarregar"/>
                     </StackLayout>
-                </TextCell>
-                <TextCell>
+                </Frame>
+                <Frame>
                     <StackLayout>
                         <Label Text="Titulo do Documento"/>
                         <Button Text="Descarregar"/>
                     </StackLayout>
-                </TextCell>
-                <TextCell>
+                </Frame>
+                <Frame>
                     <StackLayout>
                         <Label Text="Titulo do Documento"/>
                         <Button Text="Descarregar"/>
                     </StackLayout>
-                </TextCell>
-                <TextCell>
+                </Frame>
+                <Frame>
                     <StackLayout>
                         <Label Text="Titulo do Documento"/>
                         <Button Text="Descarregar"/>
                     </StackLayout>
-                </TextCell>
+                </Frame>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

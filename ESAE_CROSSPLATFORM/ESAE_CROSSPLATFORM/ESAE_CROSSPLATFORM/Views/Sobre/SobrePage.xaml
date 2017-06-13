@@ -27,6 +27,12 @@
                             <Label Text="2ª a 6ª, das 9h30 às 12h e das 14h às 17hm."/>
                         </StackLayout>
                     </Frame>
+                    <Frame>
+                        <StackLayout>
+                            <Label Text="Contactos"/>
+                            <Label Text="+XXX xx x xx x xxx"/>
+                        </StackLayout>
+                    </Frame>
                 </StackLayout>
             </ScrollView>
         </StackLayout>

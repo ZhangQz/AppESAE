@@ -4,8 +4,9 @@
              x:Class="ESAE_CROSSPLATFORM.Views.Eventos.EventosCategoriaPage">
     <ContentPage.Content>
         <ScrollView>
+            <!-- If Logged In -->
             <StackLayout>
-                <TextCell Text="Psicologia Clínica"/>
+                <Label Text="Psicologia Clínica"/>
                 <Frame>
                     <StackLayout>
                         <Label Text="Nome do Evento"/>
@@ -24,7 +25,7 @@
                         <Label Text="Data/Hora/Local"/>
                     </StackLayout>
                 </Frame>
-                <TextCell Text="Serviço Social"/>
+                <Label Text="Serviço Social"/>
                 <Frame>
                     <StackLayout>
                         <Label Text="Nome do Evento"/>
@@ -43,7 +44,7 @@
                         <Label Text="Data/Hora/Local"/>
                     </StackLayout>
                 </Frame>
-                <TextCell Text="Gestão de Recursos Humanos"/>
+                <Label Text="Gestão de Recursos Humanos"/>
                 <Frame>
                     <StackLayout>
                         <Label Text="Nome do Evento"/>

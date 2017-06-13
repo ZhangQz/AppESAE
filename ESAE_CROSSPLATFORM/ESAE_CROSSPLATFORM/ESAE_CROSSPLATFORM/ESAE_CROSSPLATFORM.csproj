@@ -50,6 +50,9 @@
     <Compile Include="Views\Detail.xaml.cs">
       <DependentUpon>Detail.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Documentos\DocumentoCategoriaPage.xaml.cs">
+      <DependentUpon>DocumentoCategoriaPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Documentos\DocumentoPage.xaml.cs">
       <DependentUpon>DocumentoPage.xaml</DependentUpon>
     </Compile>
@@ -162,6 +165,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\Eventos\EventosPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Documentos\DocumentoCategoriaPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

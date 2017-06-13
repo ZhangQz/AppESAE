@@ -34,7 +34,7 @@ namespace ESAE_CROSSPLATFORM.Views.Documentos
         private void BtnCapas_Clicked(object sender, EventArgs e)
         {
             App.esae_crossplatform.IsPresented = false;
-            App.esae_crossplatform.Detail.Navigation.PushAsync(new DocumentoPage());
+            App.esae_crossplatform.Detail.Navigation.PushAsync(new DocumentoCategoriaPage());
 
         }
 
@@ -48,7 +48,7 @@ namespace ESAE_CROSSPLATFORM.Views.Documentos
         private void BtnEstagios_Clicked(object sender, EventArgs e)
         {
             App.esae_crossplatform.IsPresented = false;
-            App.esae_crossplatform.Detail.Navigation.PushAsync(new DocumentoPage());
+            App.esae_crossplatform.Detail.Navigation.PushAsync(new DocumentoCategoriaPage());
 
         }
 

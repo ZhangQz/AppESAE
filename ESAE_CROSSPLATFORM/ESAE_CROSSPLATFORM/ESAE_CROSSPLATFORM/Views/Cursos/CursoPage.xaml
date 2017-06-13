@@ -8,20 +8,28 @@
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-            <StackLayout Grid.Row="0" BackgroundColor="Aqua">
-                <Label Text="Nome do Curso"/>
-                <Label Text="120 ETSC"/>
-            </StackLayout>
-            <ScrollView>
-                <StackLayout>
-                    <Frame>
-                        <StackLayout>
-                            <Label Text="Apresentação do Curso"/>
-                            <Label Text="Texto de apresentação do curso"/>
-                        </StackLayout>
-                    </Frame>
+            <StackLayout Grid.Row="0">
+                <StackLayout BackgroundColor="#5f94af" Padding="20,20,20,10">
+                    <Label Text="Nome do Curso" FontSize="Large" TextColor="White"/>
+                    <Label Text="120 ETSC" FontSize="Medium" TextColor="LightGray"/>
                 </StackLayout>
-            </ScrollView>
+                <ScrollView>
+                    <StackLayout>
+                        <Frame>
+                            <StackLayout>
+                                <Label Text="Apresentação do Curso" FontAttributes="Bold" FontSize="Medium"/>
+                                <Frame>
+                                    <Label Text="O curso de Pós-Graduação em Audiovisuais e Multimédia visa a capacitação dos discentes de conhecimentos e competências para a produção e implementação de projetos na área dos Audiovisuais e Multimédia, com particular destaque para Conteúdos Multiplataforma, Vídeo, Documentário e Digital Storytelling."/>
+                                </Frame>
+                                <Label Text="Destinatários" FontAttributes="Bold" FontSize="Medium"/>
+                                <Frame>
+                                    <Label Text="O curso de Pós-Graduação em Audiovisuais e Multimédia destina-se a profissionais de Multimédia, Comunicação, Publicidade, Marketing ou Design que queiram pretendam desenvolver ou aprofundar as suas competências na área dos Audiovisuais e Multimédia."/>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

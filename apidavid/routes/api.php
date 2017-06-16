@@ -27,3 +27,4 @@ Route::resource('disciplinas', 'DisciplinasController');
 Route::resource('documentos', 'DocumentosController');
 Route::resource('eventos', 'EventosController');
 Route::resource('propinas', 'PropinasController');
+Route::resource('users', 'UsersController');

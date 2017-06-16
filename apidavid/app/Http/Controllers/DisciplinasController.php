@@ -8,6 +8,7 @@ use App\Curso;
 use App\Disciplina;
 use App\Documento;
 use App\Evento;
+use App\User;
 
 class DisciplinasController extends Controller
 {

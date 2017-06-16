@@ -14,7 +14,7 @@ namespace ESAE_CROSSPLATFORM
 			this.mes = null;
 			this.ano = 0;
 			this.valor = 0;
-            this.pago = 0;
+            this.pago = false;
 		}
 
 		//construtor alternativo

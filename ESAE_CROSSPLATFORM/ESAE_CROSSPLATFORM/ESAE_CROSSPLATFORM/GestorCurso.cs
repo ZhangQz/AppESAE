@@ -35,18 +35,19 @@ namespace ESAE_CROSSPLATFORM
             }
         }
 
-        public List<string> GetAllItens()
+        public List<Curso> GetAllItens()
         {
-            List<string> dadosaenviar = new List<string>();
+            List<Curso> dadosaenviar = new List<Curso>();
 
             foreach (Curso curso in listaCurso)
             {
-                string nome = curso.GetNome().ToString();
-                string tipodecurso = curso.GetTipodecurso().ToString();
-                string responsavel = curso.GetResponsavel().ToString();
-                string descricao = curso.GetDescricao().ToString();
-                int telefone = curso.GetTelefone().ToString(); //perguntar ao prof como se converte int e bool
-                dadosaenviar.Add(nome, tipodecurso, responsavel, descricao, telefone);
+                Curso novo = new Curso();
+                novo.SetNome(curso.GetNome());
+                //string tipodecurso = curso.GetTipodecurso().ToString();
+                //string responsavel = curso.GetResponsavel().ToString();
+                //string descricao = curso.GetDescricao().ToString();
+                //string telefone = curso.GetTelefone().ToString(); //perguntar ao prof como se converte int e bool
+                dadosaenviar.Add(novo);
             }
             return dadosaenviar;
         }

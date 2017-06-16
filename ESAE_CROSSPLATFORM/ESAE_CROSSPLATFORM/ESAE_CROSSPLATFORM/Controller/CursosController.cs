@@ -20,7 +20,7 @@ namespace ESAE_CROSSPLATFORM.Controller
         public List<Curso> EliminaCurso; //editar de objetos do model
 
 
-		    public UtilizadorController()
+		    public CursoController()
 		    {
 		        servidor = new WS();
 		        ListaCurso = JsonConvert.DeserializeObject<List<Curso>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/friends").ReadLine());

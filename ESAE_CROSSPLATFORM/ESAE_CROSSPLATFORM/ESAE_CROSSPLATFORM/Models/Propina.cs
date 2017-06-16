@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
+
 namespace ESAE_CROSSPLATFORM.Models
 {
-    public class Propina
+    public class Propinas
     {
 		public int id { get; set; }
 		public string mes { get; set; }

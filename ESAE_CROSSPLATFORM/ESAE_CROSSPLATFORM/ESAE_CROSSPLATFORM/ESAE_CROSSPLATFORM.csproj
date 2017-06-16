@@ -35,6 +35,34 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Curso.cs" />
+    <Compile Include="Disciplina.cs" />
+    <Compile Include="Documento.cs" />
+    <Compile Include="Evento.cs" />
+    <Compile Include="GestorCurso.cs" />
+    <Compile Include="GestorDisciplina.cs" />
+    <Compile Include="GestorDocumento.cs" />
+    <Compile Include="GestorEvento.cs" />
+    <Compile Include="GestorPropina.cs" />
+    <Compile Include="GestorUtilizador.cs" />
+    <Compile Include="IGeral.cs" />
+    <Compile Include="Pessoa.cs" />
+    <Compile Include="Propina.cs" />
+    <Compile Include="Utilizador.cs" />
+    <Compile Include="Models\Curso.cs" />
+    <Compile Include="Models\Disciplina.cs" />
+    <Compile Include="Models\Documento.cs" />
+    <Compile Include="Models\Evento.cs" />
+    <Compile Include="Models\Propina.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Models\Utilizador.cs" />
+    <Compile Include="Models\Wish.cs" />
+    <Compile Include="Controller\CursosController.cs" />
+    <Compile Include="Controller\DisciplinasController.cs" />
+    <Compile Include="Controller\DocumentosController.cs" />
+    <Compile Include="Controller\EventosController.cs" />
+    <Compile Include="Controller\PropinasController.cs" />
+    <Compile Include="Controller\UtilizadorController.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -84,6 +112,7 @@
     <Compile Include="Views\Sobre\SobrePage.xaml.cs">
       <DependentUpon>SobrePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="API\WS.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\MainPage.xaml">
@@ -96,6 +125,9 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.10.0.2\lib\portable-net45+win8+wpa81+wp8\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xamarin.Forms.2.3.4.247\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.Core.dll</HintPath>
     </Reference>

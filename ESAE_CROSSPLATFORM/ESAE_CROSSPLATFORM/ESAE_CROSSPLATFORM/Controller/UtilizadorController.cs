@@ -11,7 +11,7 @@ using ESAE_CROSSPLATFORM.API;
 
 namespace ESAE_CROSSPLATFORM.Controller
 {
-	public class UtilizadorController
+    public class UtilizadorController
     {
         private WS servidor; //ligação ao servidor
 	    public List<Utilizador> ListaUtilizador; //lista de objetos do model
@@ -29,5 +29,4 @@ namespace ESAE_CROSSPLATFORM.Controller
 	}
 
 	}
-}
 }

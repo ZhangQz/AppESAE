@@ -9,6 +9,30 @@ namespace ESAE_CROSSPLATFORM.Views
 {
     public partial class MainPage : MasterDetailPage
     {
+        GestorCurso gestorcurso;
+
+        Controller.CursoController cursos;
+
+        GestorDisciplina gestordisciplina;
+
+        Controller.DisciplinasController disciplinas;
+
+        GestorDocumento gestordocumento;
+
+        Controller.DocumentosController documentos;
+
+        GestorEvento gestorevento;
+
+        Controller.EventosController eventos;
+
+        GestorPropinas gestorpropina;
+
+        Controller.PropinasController propinas;
+
+        GestorUtilizador gestorutlizador;
+
+        Controller.UtilizadorController utilizadores;
+
         public MainPage()
         {
             InitializeComponent();
@@ -18,5 +42,6 @@ namespace ESAE_CROSSPLATFORM.Views
 
             App.esae_crossplatform = this;
         }
+
     }
 }

@@ -15,18 +15,18 @@ namespace ESAE_CROSSPLATFORM.Controller
     {
 		
         private WS servidor; //ligação ao servidor
-		public List<Propinas> ListaPropina; //lista de objetos do model
-		public List<Propinas> EditarPropina; //editar de objetos do model
-        public List<Propinas> InserirPropina; //editar de objetos do model
-        public List<Propinas> EliminaPropina; //editar de objetos do model
+		public List<Propina> ListaPropina; //lista de objetos do model
+		public List<Propina> EditarPropina; //editar de objetos do model
+        public List<Propina> InserirPropina; //editar de objetos do model
+        public List<Propina> EliminaPropina; //editar de objetos do model
 
     public PropinasController()
 		{
 			servidor = new WS();
-			ListaPropina = JsonConvert.DeserializeObject<List<Propinas>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/friends").ReadLine());
-			EditarPropina = JsonConvert.DeserializeObject<List<Propinas>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/friends").ReadLine());
-			InserirPropina = JsonConvert.DeserializeObject<List<Propinas>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/friends").ReadLine());
-			EliminaPropina = JsonConvert.DeserializeObject<List<Propinas>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/friends").ReadLine());
+			ListaPropina = JsonConvert.DeserializeObject<List<Propina>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/friends").ReadLine());
+			EditarPropina = JsonConvert.DeserializeObject<List<Propina>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/friends").ReadLine());
+			InserirPropina = JsonConvert.DeserializeObject<List<Propina>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/friends").ReadLine());
+			EliminaPropina = JsonConvert.DeserializeObject<List<Propina>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/friends").ReadLine());
 		}
     }
 }

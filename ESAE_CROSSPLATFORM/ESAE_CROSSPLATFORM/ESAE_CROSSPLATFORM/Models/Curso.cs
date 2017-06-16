@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+
 namespace ESAE_CROSSPLATFORM.Models
 {
 		public class Curso
@@ -9,7 +11,7 @@ namespace ESAE_CROSSPLATFORM.Models
             public string responsavel { get; set; }
             public string descricao { get; set; }
 	        public int telefone { get; set; }
-	        public List<Disciplinas> disciplinas { get; set; }
+	        public List<Disciplina> disciplinas { get; set; }
 	        public List<Evento> eventos { get; set; }
 	        public List<Documento> documentos { get; set; }
             public List<Utilizador> utilizadores { get; set; }

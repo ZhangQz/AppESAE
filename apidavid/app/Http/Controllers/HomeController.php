@@ -3,6 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Curso1;
+use App\Utilizador1;
+use App\Disciplina1;
+use App\Documento1;
+use App\Evento1;
+use App\User1;
 
 class HomeController extends Controller
 {

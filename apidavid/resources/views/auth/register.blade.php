@@ -11,7 +11,7 @@
                         {{ csrf_field() }}
 
                         <div class="form-group{{ $errors->has('numero') ? ' has-error' : '' }}">
-                            <label for="numero" class="col-md-4 control-label">Numero</label>
+                            <label for="numero" class="col-md-4 control-label">Número</label>
 
                             <div class="col-md-6">
                                 <input id="numero" type="number" class="form-control" name="numero" value="{{ old('numero') }}" required autofocus>
@@ -23,7 +23,6 @@
                                 @endif
                             </div>
                         </div>
-
 
                         <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
                             <label for="password" class="col-md-4 control-label">Password</label>

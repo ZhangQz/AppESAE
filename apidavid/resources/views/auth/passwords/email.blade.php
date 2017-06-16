@@ -13,18 +13,18 @@
                         </div>
                     @endif
 
-                    <form class="form-horizontal" role="form" method="POST" action="{{ route('password.email') }}">
+                    <form class="form-horizontal" role="form" method="POST" action="{{ route('password.numero') }}">
                         {{ csrf_field() }}
 
                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-                            <label for="email" class="col-md-4 control-label">E-Mail Address</label>
+                            <label for="numero" class="col-md-4 control-label">Numero</label>
 
                             <div class="col-md-6">
-                                <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" required>
+                                <input id="numero" type="number" class="form-control" name="numero" value="{{ old('numero') }}" required>
 
-                                @if ($errors->has('email'))
+                                @if ($errors->has('numero'))
                                     <span class="help-block">
-                                        <strong>{{ $errors->first('email') }}</strong>
+                                        <strong>{{ $errors->first('numero') }}</strong>
                                     </span>
                                 @endif
                             </div>

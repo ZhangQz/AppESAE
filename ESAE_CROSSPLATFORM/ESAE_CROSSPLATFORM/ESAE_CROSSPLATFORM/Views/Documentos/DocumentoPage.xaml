@@ -6,7 +6,7 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-                <Frame>
+                <Frame Margin="10,10,10,10">
                     <StackLayout>
                         <Label Text="Titulo do Documento"/>
                         <Button Text="Descaregar"
@@ -14,49 +14,49 @@
                             Clicked="BtnDownload_Clicked"/>
                     </StackLayout>
                 </Frame>
-                <Frame>
+                <Frame Margin="10,0,10,10">
                     <StackLayout>
                         <Label Text="Titulo do Documento"/>
                         <Button Text="Descarregar"/>
                     </StackLayout>
                 </Frame>
-                <Frame>
+                <Frame Margin="10,0,10,10">
                     <StackLayout>
                         <Label Text="Titulo do Documento"/>
                         <Button Text="Descarregar"/>
                     </StackLayout>
                 </Frame>
-                <Frame>
+                <Frame Margin="10,0,10,10">
                     <StackLayout>
                         <Label Text="Titulo do Documento"/>
                         <Button Text="Descarregar"/>
                     </StackLayout>
                 </Frame>
-                <Frame>
+                <Frame Margin="10,0,10,10">
                     <StackLayout>
                         <Label Text="Titulo do Documento"/>
                         <Button Text="Descarregar"/>
                     </StackLayout>
                 </Frame>
-                <Frame>
+                <Frame Margin="10,0,10,10">
                     <StackLayout>
                         <Label Text="Titulo do Documento"/>
                         <Button Text="Descarregar"/>
                     </StackLayout>
                 </Frame>
-                <Frame>
+                <Frame Margin="10,0,10,10">
                     <StackLayout>
                         <Label Text="Titulo do Documento"/>
                         <Button Text="Descarregar"/>
                     </StackLayout>
                 </Frame>
-                <Frame>
+                <Frame Margin="10,0,10,10">
                     <StackLayout>
                         <Label Text="Titulo do Documento"/>
                         <Button Text="Descarregar"/>
                     </StackLayout>
                 </Frame>
-                <Frame>
+                <Frame Margin="10,0,10,10">
                     <StackLayout>
                         <Label Text="Titulo do Documento"/>
                         <Button Text="Descarregar"/>

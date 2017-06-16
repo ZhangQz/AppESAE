@@ -5,12 +5,12 @@
              Title="Documentos">
     <ContentPage.Content>
         <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-            <Button Text="Bolentim" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="White" Margin="0,0,0,0" x:Name="BtnBoletim" Clicked="BtnBoletim_Clicked"/>
-            <Button Text="Critérios" HorizontalOptions="FillAndExpand" BackgroundColor="White" VerticalOptions="FillAndExpand" Margin="0,0,0,0" x:Name="BtnCriterios" Clicked="BtnCriterios_Clicked"/>
-            <Button Text="Capas" HorizontalOptions="FillAndExpand" BackgroundColor="White" VerticalOptions="FillAndExpand" Margin="0,0,0,0" x:Name="BtnCapas" Clicked="BtnCapas_Clicked"/>
-            <Button Text="Entregas" HorizontalOptions="FillAndExpand" BackgroundColor="White" VerticalOptions="FillAndExpand" Margin="0,0,0,0" x:Name="BtnEntregas" Clicked="BtnEntregas_Clicked"/>
-            <Button Text="Estágios" HorizontalOptions="FillAndExpand" BackgroundColor="White" VerticalOptions="FillAndExpand" Margin="0,0,0,0" x:Name="BtnEstagios" Clicked="BtnEstagios_Clicked"/>
-            <Button Text="Outros" HorizontalOptions="FillAndExpand" BackgroundColor="White" VerticalOptions="FillAndExpand" Margin="0,0,0,0" x:Name="BtnOutrosDocs" Clicked="BtnOutrosDocs_Clicked"/>
+            <Button Text="Bolentim" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="White"  Margin="10,10,10,10" x:Name="BtnBoletim" Clicked="BtnBoletim_Clicked"/>
+            <Button Text="Critérios" HorizontalOptions="FillAndExpand" BackgroundColor="White" VerticalOptions="FillAndExpand"  Margin="10,0,10,10" x:Name="BtnCriterios" Clicked="BtnCriterios_Clicked"/>
+            <Button Text="Capas" HorizontalOptions="FillAndExpand" BackgroundColor="White" VerticalOptions="FillAndExpand" Margin="10,0,10,10" x:Name="BtnCapas" Clicked="BtnCapas_Clicked"/>
+            <Button Text="Entregas" HorizontalOptions="FillAndExpand" BackgroundColor="White" VerticalOptions="FillAndExpand" Margin="10,0,10,10" x:Name="BtnEntregas" Clicked="BtnEntregas_Clicked"/>
+            <Button Text="Estágios" HorizontalOptions="FillAndExpand" BackgroundColor="White" VerticalOptions="FillAndExpand"  Margin="10,0,10,10" x:Name="BtnEstagios" Clicked="BtnEstagios_Clicked"/>
+            <Button Text="Outros" HorizontalOptions="FillAndExpand" BackgroundColor="White" VerticalOptions="FillAndExpand" Margin="10,0,10,10" x:Name="BtnOutrosDocs" Clicked="BtnOutrosDocs_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

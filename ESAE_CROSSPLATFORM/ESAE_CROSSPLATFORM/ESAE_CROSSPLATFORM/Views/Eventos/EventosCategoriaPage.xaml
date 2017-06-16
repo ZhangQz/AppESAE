@@ -7,46 +7,46 @@
         <ScrollView>
             <!-- If Logged In -->
             <StackLayout>
-                <Label Text="Psicologia Clínica"/>
-                <Frame>
+                <Label Text="Psicologia Clínica" Margin="10,10,10,10"/>
+                <Frame Margin="10,0,10,10">
                     <StackLayout>
                         <Label Text="Nome do Evento"/>
                         <Label Text="Data/Hora/Local"/>
                     </StackLayout>
                 </Frame>
-                <Frame>
+                <Frame Margin="10,0,10,10">
                     <StackLayout>
                         <Label Text="Nome do Evento"/>
                         <Label Text="Data/Hora/Local"/>
                     </StackLayout>
                 </Frame>
-                <Frame>
+                <Frame Margin="10,0,10,10">
                     <StackLayout>
                         <Label Text="Nome do Evento"/>
                         <Label Text="Data/Hora/Local"/>
                     </StackLayout>
                 </Frame>
-                <Label Text="Serviço Social"/>
-                <Frame>
+                <Label Text="Serviço Social" Margin="10,10,10,10"/>
+                <Frame Margin="10,0,10,10">
                     <StackLayout>
                         <Label Text="Nome do Evento"/>
                         <Label Text="Data/Hora/Local"/>
                     </StackLayout>
                 </Frame>
-                <Frame>
+                <Frame Margin="10,0,10,10">
                     <StackLayout>
                         <Label Text="Nome do Evento"/>
                         <Label Text="Data/Hora/Local"/>
                     </StackLayout>
                 </Frame>
-                <Frame>
+                <Frame Margin="10,0,10,10">
                     <StackLayout>
                         <Label Text="Nome do Evento"/>
                         <Label Text="Data/Hora/Local"/>
                     </StackLayout>
                 </Frame>
-                <Label Text="Gestão de Recursos Humanos"/>
-                <Frame>
+                <Label Text="Gestão de Recursos Humanos" Margin="10,10,10,10"/>
+                <Frame Margin="10,0,10,10">
                     <StackLayout>
                         <Label Text="Nome do Evento"/>
                         <Label Text="Data/Hora/Local"/>

@@ -6,43 +6,43 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-                <Frame>
+                <Frame Margin="10,10,10,10">
                     <StackLayout>
                         <Label Text="Nome do Evento"/>
                         <Label Text="Data/Hora/Local"/>
                     </StackLayout>
                 </Frame>
-                <Frame>
+                <Frame Margin="10,0,10,10">
                     <StackLayout>
                         <Label Text="Nome do Evento"/>
                         <Label Text="Data/Hora/Local"/>
                     </StackLayout>
                 </Frame>
-                <Frame>
+                <Frame Margin="10,0,10,10">
                     <StackLayout>
                         <Label Text="Nome do Evento"/>
                         <Label Text="Data/Hora/Local"/>
                     </StackLayout>
                 </Frame>
-                <Frame>
+                <Frame Margin="10,0,10,10">
                     <StackLayout>
                         <Label Text="Nome do Evento"/>
                         <Label Text="Data/Hora/Local"/>
                     </StackLayout>
                 </Frame>
-                <Frame>
+                <Frame Margin="10,0,10,10">
                     <StackLayout>
                         <Label Text="Nome do Evento"/>
                         <Label Text="Data/Hora/Local"/>
                     </StackLayout>
                 </Frame>
-                <Frame>
+                <Frame Margin="10,0,10,10">
                     <StackLayout>
                         <Label Text="Nome do Evento"/>
                         <Label Text="Data/Hora/Local"/>
                     </StackLayout>
                 </Frame>
-                <Frame>
+                <Frame Margin="10,0,10,10">
                     <StackLayout>
                         <Label Text="Nome do Evento"/>
                         <Label Text="Data/Hora/Local"/>

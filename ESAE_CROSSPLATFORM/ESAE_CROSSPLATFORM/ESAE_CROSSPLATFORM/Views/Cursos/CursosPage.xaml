@@ -10,31 +10,31 @@
                     HorizontalOptions="FillAndExpand"
                     VerticalOptions="FillAndExpand"
                         x:Name="BtnAudioMult"
-                        Clicked="BtnAudioMult_Clicked"/>
+                        Clicked="BtnAudioMult_Clicked" Margin="10,0,10,10"/>
                 <Button Text="Audiovisuais e Multimédia"
                     HorizontalOptions="FillAndExpand"
-                    VerticalOptions="FillAndExpand"/>
+                    VerticalOptions="FillAndExpand" Margin="10,0,10,10"/>
                 <Button Text="Audiovisuais e Multimédia"
                     HorizontalOptions="FillAndExpand"
-                    VerticalOptions="FillAndExpand"/>
+                    VerticalOptions="FillAndExpand" Margin="10,0,10,10"/>
                 <Button Text="Audiovisuais e Multimédia"
                     HorizontalOptions="FillAndExpand"
-                    VerticalOptions="FillAndExpand"/>
+                    VerticalOptions="FillAndExpand" Margin="10,0,10,10"/>
                 <Button Text="Audiovisuais e Multimédia"
                     HorizontalOptions="FillAndExpand"
-                    VerticalOptions="FillAndExpand"/>
+                    VerticalOptions="FillAndExpand" Margin="10,0,10,10"/>
                 <Button Text="Audiovisuais e Multimédia"
                     HorizontalOptions="FillAndExpand"
-                    VerticalOptions="FillAndExpand"/>
+                    VerticalOptions="FillAndExpand" Margin="10,0,10,10"/>
                 <Button Text="Audiovisuais e Multimédia"
                     HorizontalOptions="FillAndExpand"
-                    VerticalOptions="FillAndExpand"/>
+                    VerticalOptions="FillAndExpand" Margin="10,0,10,10"/>
                 <Button Text="Audiovisuais e Multimédia"
                     HorizontalOptions="FillAndExpand"
-                    VerticalOptions="FillAndExpand"/>
+                    VerticalOptions="FillAndExpand" Margin="10,0,10,10"/>
                 <Button Text="Audiovisuais e Multimédia"
                     HorizontalOptions="FillAndExpand"
-                    VerticalOptions="FillAndExpand"/>
+                    VerticalOptions="FillAndExpand" Margin="10,0,10,10"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

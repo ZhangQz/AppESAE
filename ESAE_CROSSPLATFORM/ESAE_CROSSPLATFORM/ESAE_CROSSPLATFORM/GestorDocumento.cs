@@ -32,17 +32,20 @@ namespace ESAE_CROSSPLATFORM
             }
         }
 
-        public List<string> GetAllItens()
+        public List<Documento> GetAllItens()
         {
-            List<string> dadosaenviar = new List<string>();
+            List<Documento> dadosaenviar = new List<Documento>();
 
             foreach (Documento documento in listaDocumentos)
             {
-                string nome = documento.GetNome().ToString();
+                Documento novo = new Documento();
                 string categoria = documento.GetCategoria().ToString();
-                dadosaenviar.Add(nome, categoria);
+                novo.SetNome(documento.GetNome());
+
+                dadosaenviar.Add(novo);
             }
             return dadosaenviar;
         }
+
     }
 }

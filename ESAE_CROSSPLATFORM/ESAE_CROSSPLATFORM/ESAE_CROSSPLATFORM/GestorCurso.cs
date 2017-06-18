@@ -43,10 +43,10 @@ namespace ESAE_CROSSPLATFORM
             {
                 Curso novo = new Curso();
                 novo.SetNome(curso.GetNome());
-                //string tipodecurso = curso.GetTipodecurso().ToString();
-                //string responsavel = curso.GetResponsavel().ToString();
-                //string descricao = curso.GetDescricao().ToString();
-                //string telefone = curso.GetTelefone().ToString(); //perguntar ao prof como se converte int e bool
+                novo.SetTipodecurso(curso.GetTipodecurso());
+                novo.SetResponsavel(curso.GetResponsavel());
+                novo.SetDescricao(curso.GetDescricao());
+                novo.SetTelefone(curso.GetTelefone());
                 dadosaenviar.Add(novo);
             }
             return dadosaenviar;

@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+
 namespace ESAE_CROSSPLATFORM.Models
 {
     public class Documento

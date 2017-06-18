@@ -34,21 +34,21 @@ namespace ESAE_CROSSPLATFORM
             }
         }
 
-        public List<string> GetAllItens()
+        public List<Evento> GetAllItens()
         {
-            List<string> dadosaenviar = new List<string>();
+            List<Evento> dadosaenviar = new List<Evento>();
 
             foreach (Evento evento in listaEvento)
             {
-                string nome = evento.GetNome().ToString();
-                string tipo = evento.GetTipo().ToString();
-                string local = evento.GetLocal().ToString();
+                Evento novo = new Evento();
+                novo.SetNome(evento.GetNome());
+                novo.SetLocal(evento.GetLocal());
+                novo.SetTipo(evento.GetTipo());
 
-                dadosaenviar.Add(nome, tipo, local);
+                dadosaenviar.Add(novo);
             }
             return dadosaenviar;
         }
-
     }
 
 }

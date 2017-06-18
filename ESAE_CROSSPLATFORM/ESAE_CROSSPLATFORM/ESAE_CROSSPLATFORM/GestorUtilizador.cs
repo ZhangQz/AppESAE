@@ -32,15 +32,17 @@ namespace ESAE_CROSSPLATFORM
             }
         }
 
-        public List<string> GetAllItens()
+        public List<Utilizador> GetAllItens()
         {
-            List<string> dadosaenviar = new List<string>();
+            List<Utilizador> dadosaenviar = new List<Utilizador>();
 
             foreach (Utilizador utilizador in listaUtilizadores)
             {
-                string nome = utilizador.GetNome().ToString();
-                int numero = utilizador.GetNumero().ToString(); //perguntar ao prof como se converte int e bool
-                dadosaenviar.Add(nome, numero);
+                Utilizador novo = new Utilizador();
+                novo.SetNome(utilizador.GetNome());
+                novo.SetNumero(utilizador.GetNumero());
+
+                dadosaenviar.Add(novo);
             }
             return dadosaenviar;
         }

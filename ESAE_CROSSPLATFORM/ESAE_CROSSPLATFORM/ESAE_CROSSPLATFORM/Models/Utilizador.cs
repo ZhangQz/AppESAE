@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ESAE_CROSSPLATFORM
+namespace ESAE_CROSSPLATFORM.Models
 {
     public class Utilizador
     {

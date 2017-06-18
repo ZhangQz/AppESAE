@@ -11,8 +11,8 @@
 namespace ESAE_CROSSPLATFORM {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\zhang\\Documents\\GitHub\\AppESAE\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM\\ESA" +
-        "E_CROSSPLATFORM\\App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\zhang\\Documents\\AppESAE\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM\\ESAE_CROSS" +
+        "PLATFORM\\App.xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

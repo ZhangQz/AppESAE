@@ -23,7 +23,7 @@ namespace ESAE_CROSSPLATFORM
             Debug.WriteLine("Disciplina criada com sucesso...");
         }
 
-        public void listaDisciplina()
+        public void ListaDisciplina()
         {
             foreach (Disciplina p in listaDisciplinas)
             {
@@ -32,14 +32,15 @@ namespace ESAE_CROSSPLATFORM
             }
         }
 
-        public List<string> GetAllItens()
+        public List<Disciplina> GetAllItens()
         {
-            List<string> dadosaenviar = new List<string>();
+            List<Disciplina> dadosaenviar = new List<Disciplina>();
 
             foreach (Disciplina disciplina in listaDisciplinas)
             {
-                string nome = disciplina.GetNome().ToString();
-                dadosaenviar.Add(nome);
+                Disciplina novo = new Disciplina();
+                novo.SetNome(disciplina.GetNome());
+                dadosaenviar.Add(novo);
             }
             return dadosaenviar;
         }

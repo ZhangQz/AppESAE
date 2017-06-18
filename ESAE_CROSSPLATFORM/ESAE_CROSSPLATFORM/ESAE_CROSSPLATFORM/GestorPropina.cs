@@ -39,20 +39,21 @@ namespace ESAE_CROSSPLATFORM
             }
         }
 
-        public List<string> GetAllItens()
+        public List<Propina> GetAllItens()
         {
-            List<string> dadosaenviar = new List<string>();
+            List<Propina> dadosaenviar = new List<Propina>();
 
             foreach (Propina propina in listaPropina)
             {
-                string mes = propina.GetMes().ToString();
-                int ano = propina.GetAno().ToString();
-                int valor = propina.GetValor().ToString();
-                bool pago = propina.GetPago();
-                dadosaenviar.Add(mes, ano, valor, pago);
+                Propina novo = new Propina();
+                novo.SetValor(propina.GetValor());
+                novo.SetPago(propina.GetPago());
+                novo.SetAno(propina.GetAno());
+                novo.SetMes(propina.GetMes());
+
+                dadosaenviar.Add(novo);
             }
             return dadosaenviar;
         }
-
     }
 }

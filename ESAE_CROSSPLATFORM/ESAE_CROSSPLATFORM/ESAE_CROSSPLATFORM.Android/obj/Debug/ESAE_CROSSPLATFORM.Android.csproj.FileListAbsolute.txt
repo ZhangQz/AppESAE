@@ -96,3 +96,11 @@ C:\Users\zhang\Documents\AppESAE\ESAE_CROSSPLATFORM\ESAE_CROSSPLATFORM\ESAE_CROS
 C:\Users\zhang\Documents\AppESAE\ESAE_CROSSPLATFORM\ESAE_CROSSPLATFORM\ESAE_CROSSPLATFORM.Android\obj\Debug\res\drawable\perfil_fundo.png
 C:\Users\zhang\Documents\AppESAE\ESAE_CROSSPLATFORM\ESAE_CROSSPLATFORM\ESAE_CROSSPLATFORM.Android\obj\Debug\R.cs.flag
 C:\Users\zhang\Documents\AppESAE\ESAE_CROSSPLATFORM\ESAE_CROSSPLATFORM\ESAE_CROSSPLATFORM.Android\obj\Debug\uploadflags.txt
+C:\Users\zhang\Documents\AppESAE\ESAE_CROSSPLATFORM\ESAE_CROSSPLATFORM\ESAE_CROSSPLATFORM.Android\bin\Debug\ESAE_CROSSPLATFORM.dll.mdb
+C:\Users\zhang\Documents\AppESAE\ESAE_CROSSPLATFORM\ESAE_CROSSPLATFORM\ESAE_CROSSPLATFORM.Android\bin\Debug\ESAE_CROSSPLATFORM.Android.dll.mdb
+C:\Users\zhang\Documents\AppESAE\ESAE_CROSSPLATFORM\ESAE_CROSSPLATFORM\ESAE_CROSSPLATFORM.Android\obj\Debug\android\assets\ESAE_CROSSPLATFORM.Android.dll.mdb
+C:\Users\zhang\Documents\AppESAE\ESAE_CROSSPLATFORM\ESAE_CROSSPLATFORM\ESAE_CROSSPLATFORM.Android\obj\Debug\android\assets\ESAE_CROSSPLATFORM.dll.mdb
+C:\Users\zhang\Documents\AppESAE\ESAE_CROSSPLATFORM\ESAE_CROSSPLATFORM\ESAE_CROSSPLATFORM.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+C:\Users\zhang\Documents\AppESAE\ESAE_CROSSPLATFORM\ESAE_CROSSPLATFORM\ESAE_CROSSPLATFORM.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+C:\Users\zhang\Documents\AppESAE\ESAE_CROSSPLATFORM\ESAE_CROSSPLATFORM\ESAE_CROSSPLATFORM.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\zhang\Documents\AppESAE\ESAE_CROSSPLATFORM\ESAE_CROSSPLATFORM\ESAE_CROSSPLATFORM.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb

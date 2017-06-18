@@ -10,11 +10,13 @@ namespace ESAE_CROSSPLATFORM
     public class GestorCurso
     {
         List<Curso> listaCurso;
+        List<Curso> listaTipoCurso;
 
         //construtor da classe
         public GestorCurso()
         {
             listaCurso = new List<Curso>();
+            listaTipoCurso = new List<Curso>();
         }
 
         public void InserirCurso(Curso _curso)
@@ -51,7 +53,6 @@ namespace ESAE_CROSSPLATFORM
             }
             return dadosaenviar;
         }
-
     }
 
 }

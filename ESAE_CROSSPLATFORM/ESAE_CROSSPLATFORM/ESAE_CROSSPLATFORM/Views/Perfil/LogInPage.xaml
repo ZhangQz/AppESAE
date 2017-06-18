@@ -4,34 +4,36 @@
              x:Class="ESAE_CROSSPLATFORM.Views.Perfil.LogInPage"
              Title="Log In">
     <ContentPage.Content>
-        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-            <Label Text="Número de Aluno" 
+        <ScrollView>
+            <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <Label Text="Número de Aluno" 
                    HorizontalOptions="Center" 
                    TextColor="Black" 
                    FontSize="Medium" 
                    FontAttributes="Bold" />
-            
-            <Entry Placeholder="Número de Aluno" 
+
+                <Entry Placeholder="Número de Aluno" 
                    Margin="100,0,100,0" 
                    FontSize="Small"/>
-            
-            <Label Text="Password" 
+
+                <Label Text="Password" 
                    HorizontalOptions="Center" 
                    TextColor="Black" 
                    FontSize="Medium" 
                    FontAttributes="Bold"/>
-            
-            <Entry IsPassword="True" 
+
+                <Entry IsPassword="True" 
                    Placeholder="******" 
                    Margin="100,0,100,0" 
                    FontSize="Small"/>
-            
-            <Button Text="Entrar"
+
+                <Button Text="Entrar"
                     BackgroundColor="White"
                     x:Name="BtnLog"
                     Clicked="BtnLog_Clicked"
                     Margin="100,0,100,0"
                     />
-        </StackLayout>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

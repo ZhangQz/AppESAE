@@ -55,8 +55,6 @@
                 </Grid>
             </StackLayout>
         </ScrollView>
-    </ContentPage>
-    <ContentPage>
         <StackLayout BackgroundColor="#966c7d">
             <Label Text="Terça" FontSize="75" XAlign="Start" TextColor="White"/>
             <Grid>

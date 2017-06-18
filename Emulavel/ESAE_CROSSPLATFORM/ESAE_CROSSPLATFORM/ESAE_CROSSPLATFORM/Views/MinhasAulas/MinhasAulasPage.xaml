@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ESAE_CROSSPLATFORM.Views.MinhasAulas.MinhasAulasPage"
+             Title="As Minhas Aulas">
+    <ContentPage>
+        <StackLayout>
+            <StackLayout BackgroundColor="#6c7c96" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <Label Text="Segunda" FontSize="75" XAlign="Start" TextColor="White" FontAttributes="Bold" Margin="20,20,0,0"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <StackLayout Grid.Column="0">
+                        <Label Text="14h30&#x0a; - &#x0a;17h30" TextColor="White" FontSize="Small" HorizontalOptions="StartAndExpand"
+                           VerticalOptions="StartAndExpand" Margin="10,20,0,10" Grid.Row="0"/>
+                        <Label Text="BASL4" Grid.Row="1" Margin="10,20,0,10" HorizontalOptions="StartAndExpand" TextColor="White" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                    <StackLayout Grid.Column="1">
+                        <Frame HorizontalOptions="EndAndExpand" Margin="0,20,10,10" Padding="5,5,5,5" Grid.Row="0" VerticalOptions="StartAndExpand">
+                            <Label Text="Intervenção em Rede e Multisistémica" TextColor="Black" />
+                        </Frame>
+                        <Frame HorizontalOptions="EndAndExpand" Margin="0,20,10,10" Padding="5,5,5,5"  Grid.Row="1" VerticalOptions="StartAndExpand">
+                            <Label Text="Prof. XXXX de Lourenço"/>
+                        </Frame>
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+            <StackLayout>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <StackLayout Grid.Column="0">
+                        <Label Text="14h30&#x0a; - &#x0a;17h30" TextColor="White" FontSize="Small" HorizontalOptions="StartAndExpand"
+                           VerticalOptions="StartAndExpand" Margin="10,20,0,10" Grid.Row="0"/>
+                        <Label Text="BASL4" Grid.Row="1" Margin="10,20,0,10" HorizontalOptions="StartAndExpand" TextColor="White" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                    <StackLayout Grid.Column="1">
+                        <Frame HorizontalOptions="EndAndExpand" Margin="0,20,10,10" Padding="5,5,5,5" Grid.Row="0" VerticalOptions="StartAndExpand">
+                            <Label Text="Intervenção em Rede e Multisistémica" TextColor="Black" />
+                        </Frame>
+                        <Frame HorizontalOptions="EndAndExpand" Margin="0,20,10,10" Padding="5,5,5,5"  Grid.Row="1" VerticalOptions="StartAndExpand">
+                            <Label Text="Prof. XXXX de Lourenço"/>
+                        </Frame>
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout BackgroundColor="#966c7d">
+            <Label Text="Terça" FontSize="75" XAlign="Start" TextColor="White"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackLayout Grid.Column="0">
+                    <Label Text="14h30&#x0a; - &#x0a;17h30" TextColor="White" FontSize="Small" HorizontalOptions="StartAndExpand"
+                           VerticalOptions="StartAndExpand" Margin="10,20,0,10" Grid.Row="0"/>
+                    <Label Text="BASL4" Grid.Row="1" Margin="10,20,0,10" HorizontalOptions="StartAndExpand" TextColor="White" VerticalOptions="StartAndExpand"/>
+                </StackLayout>
+                <StackLayout Grid.Column="1">
+                    <Frame HorizontalOptions="EndAndExpand" Margin="0,20,10,10" Padding="5,5,5,5" Grid.Row="0" VerticalOptions="StartAndExpand">
+                        <Label Text="Intervenção em Rede e Multisistémica" TextColor="Black" />
+                    </Frame>
+                    <Frame HorizontalOptions="EndAndExpand" Margin="0,20,10,10" Padding="5,5,5,5"  Grid.Row="1" VerticalOptions="StartAndExpand">
+                        <Label Text="Prof. XXXX de Lourenço"/>
+                    </Frame>
+                </StackLayout>
+                </Grid>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <StackLayout Grid.Column="0">
+                        <Label Text="14h30&#x0a; - &#x0a;17h30" TextColor="White" FontSize="Small" HorizontalOptions="StartAndExpand"
+                           VerticalOptions="StartAndExpand" Margin="10,20,0,10" Grid.Row="0"/>
+                        <Label Text="BASL4" Grid.Row="1" Margin="10,20,0,10" HorizontalOptions="StartAndExpand" TextColor="White" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                    <StackLayout Grid.Column="1">
+                        <Frame HorizontalOptions="EndAndExpand" Margin="0,20,10,10" Padding="5,5,5,5" Grid.Row="0" VerticalOptions="StartAndExpand">
+                            <Label Text="Intervenção em Rede e Multisistémica" TextColor="Black" />
+                        </Frame>
+                        <Frame HorizontalOptions="EndAndExpand" Margin="0,20,10,10" Padding="5,5,5,5"  Grid.Row="1" VerticalOptions="StartAndExpand">
+                            <Label Text="Prof. XXXX de Lourenço"/>
+                        </Frame>
+                    </StackLayout>
+                </Grid>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout BackgroundColor="#758e5c">
+            <Label Text="Quarta" FontSize="75" XAlign="Start" TextColor="White"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackLayout Grid.Column="0">
+                    <Label Text="14h30&#x0a; - &#x0a;17h30" TextColor="White" FontSize="Small" HorizontalOptions="StartAndExpand"
+                           VerticalOptions="StartAndExpand" Margin="10,20,0,10" Grid.Row="0"/>
+                    <Label Text="BASL4" Grid.Row="1" Margin="10,20,0,10" HorizontalOptions="StartAndExpand" TextColor="White" VerticalOptions="StartAndExpand"/>
+                </StackLayout>
+                <StackLayout Grid.Column="1">
+                    <Frame HorizontalOptions="EndAndExpand" Margin="0,20,10,10" Padding="5,5,5,5" Grid.Row="0" VerticalOptions="StartAndExpand">
+                        <Label Text="Intervenção em Rede e Multisistémica" TextColor="Black" />
+                    </Frame>
+                    <Frame HorizontalOptions="EndAndExpand" Margin="0,20,10,10" Padding="5,5,5,5"  Grid.Row="1" VerticalOptions="StartAndExpand">
+                        <Label Text="Prof. XXXX de Lourenço"/>
+                    </Frame>
+                </StackLayout>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackLayout Grid.Column="0">
+                    <Label Text="14h30&#x0a; - &#x0a;17h30" TextColor="White" FontSize="Small" HorizontalOptions="StartAndExpand"
+                           VerticalOptions="StartAndExpand" Margin="10,20,0,10" Grid.Row="0"/>
+                    <Label Text="BASL4" Grid.Row="1" Margin="10,20,0,10" HorizontalOptions="StartAndExpand" TextColor="White" VerticalOptions="StartAndExpand"/>
+                </StackLayout>
+                <StackLayout Grid.Column="1">
+                    <Frame HorizontalOptions="EndAndExpand" Margin="0,20,10,10" Padding="5,5,5,5" Grid.Row="0" VerticalOptions="StartAndExpand">
+                        <Label Text="Intervenção em Rede e Multisistémica" TextColor="Black" />
+                    </Frame>
+                    <Frame HorizontalOptions="EndAndExpand" Margin="0,20,10,10" Padding="5,5,5,5"  Grid.Row="1" VerticalOptions="StartAndExpand">
+                        <Label Text="Prof. XXXX de Lourenço"/>
+                    </Frame>
+                </StackLayout>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackLayout Grid.Column="0">
+                    <Label Text="14h30&#x0a; - &#x0a;17h30" TextColor="White" FontSize="Small" HorizontalOptions="StartAndExpand"
+                           VerticalOptions="StartAndExpand" Margin="10,20,0,10" Grid.Row="0"/>
+                    <Label Text="BASL4" Grid.Row="1" Margin="10,20,0,10" HorizontalOptions="StartAndExpand" TextColor="White" VerticalOptions="StartAndExpand"/>
+                </StackLayout>
+                <StackLayout Grid.Column="1">
+                    <Frame HorizontalOptions="EndAndExpand" Margin="0,20,10,10" Padding="5,5,5,5" Grid.Row="0" VerticalOptions="StartAndExpand">
+                        <Label Text="Intervenção em Rede e Multisistémica" TextColor="Black" />
+                    </Frame>
+                    <Frame HorizontalOptions="EndAndExpand" Margin="0,20,10,10" Padding="5,5,5,5"  Grid.Row="1" VerticalOptions="StartAndExpand">
+                        <Label Text="Prof. XXXX de Lourenço"/>
+                    </Frame>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ContentPage>
+</CarouselPage>

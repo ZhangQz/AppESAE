@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ESAE_CROSSPLATFORM.Views.Sobre.SobrePage"
+             Title="Escola Superior de Altos estudos">
+    <ContentPage.Content>
+        <StackLayout Margin="10,10,10,10">
+            <Image Source="Perfil_Fundo.png"
+                   Aspect="AspectFill"/>
+            <ScrollView>
+                <StackLayout>
+                    <Label Text="Apresentação" FontSize="Large" FontAttributes="Bold" Margin="0,20,0,10"/>
+                    <Frame>
+                        <StackLayout>
+                            <Label Text="Percebemos, cada vez mais, que a estrutura atual da organização auxilia a preparação e a composição das diversas correntes de pensamento."/>
+                        </StackLayout>
+                    </Frame>
+                    <Label Text="Equipa" FontSize="Large" FontAttributes="Bold" Margin="0,20,0,10"/>
+                    <Frame>
+                        <StackLayout>
+                            <Label Text="Desta maneira, o comprometimento entre as equipes faz parte de um processo de gerenciamento do retorno esperado a longo prazo."/>
+                        </StackLayout>
+                    </Frame>
+                    <Label Text="Horário de funcionamento" FontSize="Large" FontAttributes="Bold" Margin="0,20,0,10"/>
+                    <Frame>
+                        <StackLayout>
+                            <Label Text="Secretariado da Escola Superior de Altos Estudos (ESAE)" FontAttributes="Bold" TextColor="#DD4400"/>
+                            <Label Text="Telefones: (+351) 239 488 043/44&#x0a;
+E-mail: esae@ismt.pt &#x0a;
+Página Web: www.ismt.pt"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame>
+                        <StackLayout>
+                            <Label Text="
+Envio de correspondência:" FontAttributes="Bold" TextColor="#DD4400"/>
+                            <Label Text="Instituto Superior Miguel Torga&#x0a;
+Escola Superior de Altos Estudos (ESAE)&#x0a;
+Largo da Cruz de Celas, 1&#x0a;
+3000-132 Coimbra"/>
+
+                        </StackLayout>
+                    </Frame>
+                    <Label Text="Contactos" FontSize="Large" FontAttributes="Bold"  Margin="0,20,0,10"/>
+                    <Frame>
+                        <StackLayout>
+                            <Label Text="+351 808 20 80 30"/>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

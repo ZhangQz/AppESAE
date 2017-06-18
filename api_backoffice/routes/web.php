@@ -34,12 +34,9 @@ Route::resource("documento", 'DocumentoController1');
 Route::resource("evento", 'EventoController1');
 Route::resource("propina", 'PropinaController1');
 Route::resource("utilizador", 'UtilizadorController1');
-
-
-
-Auth::routes();
+Route::resource("user", 'UsersController1');
 
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index');
+Route::get('/index', 'HomeController@index');

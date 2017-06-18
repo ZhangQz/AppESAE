@@ -11,6 +11,7 @@
       <li><a href="{{ route('evento.index') }}">Eventos</a></li>
       <li><a href="{{ route('propina.index') }}">Propinas</a></li>
       <li><a href="{{ route('utilizador.index') }}">Utilizadores</a></li>
+      <li><a href="{{ route('user.index') }}">Users</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
         <!-- Authentication Links -->

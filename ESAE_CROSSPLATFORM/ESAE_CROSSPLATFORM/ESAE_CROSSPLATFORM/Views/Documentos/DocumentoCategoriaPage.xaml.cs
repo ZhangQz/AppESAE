@@ -12,9 +12,13 @@ namespace ESAE_CROSSPLATFORM.Views.Documentos
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class DocumentoCategoriaPage : ContentPage
     {
-        public DocumentoCategoriaPage()
+        GestorDocumento gestorDocumento;
+
+        public DocumentoCategoriaPage(GestorDocumento _gestorDocumento)
         {
             InitializeComponent();
+
+            gestorDocumento = _gestorDocumento;
         }
     }
 }

@@ -12,9 +12,13 @@ namespace ESAE_CROSSPLATFORM.Views.Eventos
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class EventosCategoriaPage : ContentPage
     {
-        public EventosCategoriaPage()
+        GestorEvento gestorEvento;
+
+        public EventosCategoriaPage(GestorEvento _gestorEvento)
         {
             InitializeComponent();
+
+            gestorEvento = _gestorEvento;
         }
     }
 }

@@ -12,15 +12,26 @@ namespace ESAE_CROSSPLATFORM.Views.Cursos
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CursosPage : ContentPage
     {
-        public CursosPage()
+        GestorCurso gestorCurso;
+
+        public CursosPage(GestorCurso _gestorCurso)
         {
             InitializeComponent();
+
+            gestorCurso = _gestorCurso;
+
+            ListaCursos.ItemsSource = gestorCurso.GetAllItens();
         }
 
         private void BtnAudioMult_Clicked(object sender, EventArgs e)
         {
             App.esae_crossplatform.IsPresented = false;
             App.esae_crossplatform.Detail.Navigation.PushAsync(new CursoPage());
+        }
+
+        private void ListaCursos_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+
         }
     }
 }

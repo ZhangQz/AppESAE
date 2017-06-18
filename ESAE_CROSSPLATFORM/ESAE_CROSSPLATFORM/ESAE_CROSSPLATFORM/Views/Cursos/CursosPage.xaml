@@ -36,6 +36,15 @@
                     HorizontalOptions="FillAndExpand"
                     VerticalOptions="FillAndExpand" Margin="10,0,10,10"/>
             </StackLayout>
+            <ListView x:Name="ListaCursos"
+                  ItemSelected="ListaCursos_ItemSelected">
+                <ListView.Header>
+                    <StackLayout BackgroundColor="#cccccc">
+                        <Label Text="Lista de Cursos"/>
+                        <Label Text="Lista de alunos do ISMT" FontSize="Small"/>
+                    </StackLayout>
+                </ListView.Header>
+            </ListView>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>

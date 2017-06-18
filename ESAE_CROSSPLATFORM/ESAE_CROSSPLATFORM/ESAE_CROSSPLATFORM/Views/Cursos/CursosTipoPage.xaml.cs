@@ -12,15 +12,21 @@ namespace ESAE_CROSSPLATFORM.Views.Cursos
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CursosTipoPage : ContentPage
     {
-        public CursosTipoPage()
+        GestorCurso gestorCurso;
+
+        public CursosTipoPage(GestorCurso _gestorCurso)
         {
             InitializeComponent();
+
+            gestorCurso = _gestorCurso;
+
+            ListaTipoCurso.ItemsSource = gestorCurso.GetAllItens();
         }
 
         private void BtnMestrados_Clicked(object sender, EventArgs e)
         {
             App.esae_crossplatform.IsPresented = false;
-            App.esae_crossplatform.Detail.Navigation.PushAsync(new CursosPage());
+            App.esae_crossplatform.Detail.Navigation.PushAsync(new CursosPage(gestorCurso));
         }
 
         private void BtnPosGrad_Clicked(object sender, EventArgs e)
@@ -29,6 +35,11 @@ namespace ESAE_CROSSPLATFORM.Views.Cursos
         }
 
         private void BtnLivre_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ListaTipoCurso_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
 
         }

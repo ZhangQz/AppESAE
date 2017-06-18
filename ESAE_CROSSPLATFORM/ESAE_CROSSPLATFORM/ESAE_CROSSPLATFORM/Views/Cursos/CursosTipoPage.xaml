@@ -4,26 +4,30 @@
              x:Class="ESAE_CROSSPLATFORM.Views.Cursos.CursosTipoPage"
              Title="Ofertas Formativas">
     <ContentPage.Content>
-        <StackLayout>
-            <Button Text="Mestrados"
+        <ListView x:Name="ListaTipoCurso" 
+                  ItemSelected="ListaTipoCurso_ItemSelected">
+            <StackLayout>
+                <Button Text="Mestrados"
                     x:Name="BtnMestrados"
                     Clicked="BtnMestrados_Clicked"
                     HorizontalOptions="FillAndExpand"
                     VerticalOptions="FillAndExpand"
                     BackgroundColor="White"
                      Margin="10,10,10,10"/>
-            <Button Text="Pós Graduações"
+                <Button Text="Pós Graduações"
                     x:Name="BtnPosGrad"
                     Clicked="BtnPosGrad_Clicked"
                     HorizontalOptions="FillAndExpand"
                     VerticalOptions="FillAndExpand"
                     BackgroundColor="White" Margin="10,0,10,10"/>
-            <Button Text="Cursos Livres"
+                <Button Text="Cursos Livres"
                     x:Name="BtnLivre"
                     Clicked="BtnLivre_Clicked"
                     HorizontalOptions="FillAndExpand"
                     VerticalOptions="FillAndExpand"
                     BackgroundColor="White" Margin="10,0,10,10"/>
-        </StackLayout>
+
+            </StackLayout>
+        </ListView>
     </ContentPage.Content>
 </ContentPage>

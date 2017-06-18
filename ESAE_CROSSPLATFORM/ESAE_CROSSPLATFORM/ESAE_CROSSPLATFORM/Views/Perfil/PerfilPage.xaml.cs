@@ -12,9 +12,15 @@ namespace ESAE_CROSSPLATFORM.Views.Perfil
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PerfilPage : ContentPage
     {
-        public PerfilPage()
+        GestorUtilizador gestorUtilizador;
+
+        public PerfilPage(GestorUtilizador _gestorUtilizador)
         {
             InitializeComponent();
+
+            gestorUtilizador = _gestorUtilizador;
+
+
         }
 
         private void BtnLogOut_Clicked(object sender, EventArgs e)

@@ -92,7 +92,7 @@ class CursosController extends Controller
             $statusCode = 200;
             $response = collect([]);
 
-            $curso = Friend::findOrFail($id);
+            $curso = Curso::findOrFail($id);
             $curso->fill($dados->all())->save();
             $response->push(['updated' => 'Curso updated successfully.']);
         } catch (Exception $e) {

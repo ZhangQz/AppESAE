@@ -16,7 +16,6 @@ use App\Documento;
 use App\Evento;
 use App\Propina;
 use App\User;
-use App\Propina;
 
 
 /*

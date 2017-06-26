@@ -5,18 +5,18 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Redirect;
-use App\Curso1;
-use App\Utilizador1;
-use App\Disciplina1;
-use App\Documento1;
-use App\Evento1;
-use App\User1;
-use App\Propina1;
+use App\Curso;
+use App\Utilizador;
+use App\Disciplina;
+use App\Documento;
+use App\Evento;
+use App\User;
+use App\Propina;
 
 class CursoController1 extends Controller
 {
 	public function index() {
-		$cursos = Curso1::all();
+		$cursos = Curso::all();
 		if (is_null($cursos))
 			return redirect()->route("index")->withErrors('Erro ao carregar cursos. Por favor, tente mais tarde.');
 			else
@@ -30,7 +30,7 @@ class CursoController1 extends Controller
 	}
 
 	public function store(Request $dados) {
-		$curso = Curso1::create($dados->all()); //cria o veículo com os dados do formulário (utilizei a facade Request)
+		$curso = Curso::create($dados->all()); //cria o veículo com os dados do formulário (utilizei a facade Request)
 
 		//verifica se o veículo foi criado com sucesso
 		if(is_null($curso))
@@ -40,12 +40,12 @@ class CursoController1 extends Controller
 	}
 
 	public function show($id) {
-		$curso = Curso1::findOrFail($id); //retorna o veículo a mostrar
-		$curso->disciplina = Curso1::find($curso-disciplina);
-		$curso->documento = Curso1::find($curso-documento);
-		$curso->evento = Curso1::find($curso-evento);
-		$curso->propina = Curso1::find($curso-propina);
-		$curso->utilizador = Curso1::find($curso-utilizador);
+		$curso = Curso::findOrFail($id); //retorna o veículo a mostrar
+		$curso->disciplina = Curso::find($curso-disciplina);
+		$curso->documento = Curso::find($curso-documento);
+		$curso->evento = Curso::find($curso-evento);
+		$curso->propina = Curso::find($curso-propina);
+		$curso->utilizador = Curso::find($curso-utilizador);
 
 		//verifica se o veículo foi preenchido com sucesso
 		if (is_null($maquina))
@@ -70,7 +70,7 @@ class CursoController1 extends Controller
 	}
 
 	public function update(Request $dados, $id) {
-		$curso = Curso1::findOrFail($id); //retorna o veículo a mostrar
+		$curso = Curso::findOrFail($id); //retorna o veículo a mostrar
 
 		//verificar se o veículo existe (em caso negativo, envia um erro para a view)
 		if (is_null($curso)) {
@@ -86,7 +86,7 @@ class CursoController1 extends Controller
 		}
 	}
 	public function destroy($id) {
-		$curso = Curso1::findOrFail($id); //retorna o veículo a mostrar
+		$curso = Curso::findOrFail($id); //retorna o veículo a mostrar
 
 		//verificar se o veículo existe (em caso negativo, envia um erro para a view)
 		if (is_null($curso)) {

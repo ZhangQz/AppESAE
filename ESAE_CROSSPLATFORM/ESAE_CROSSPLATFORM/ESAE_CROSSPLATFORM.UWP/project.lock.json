@@ -26914,16 +26914,16 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\zhang\\Documents\\AppESAE\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM.UWP\\ESAE_CROSSPLATFORM.UWP.csproj",
+      "projectUniqueName": "C:\\AppESAE\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM.UWP\\ESAE_CROSSPLATFORM.UWP.csproj",
       "projectName": "ESAE_CROSSPLATFORM.UWP",
-      "projectPath": "C:\\Users\\zhang\\Documents\\AppESAE\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM.UWP\\ESAE_CROSSPLATFORM.UWP.csproj",
-      "projectJsonPath": "C:\\Users\\zhang\\Documents\\AppESAE\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM.UWP\\project.json",
+      "projectPath": "C:\\AppESAE\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM.UWP\\ESAE_CROSSPLATFORM.UWP.csproj",
+      "projectJsonPath": "C:\\AppESAE\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM.UWP\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "C:\\Users\\zhang\\Documents\\AppESAE\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM.csproj": {
-              "projectPath": "C:\\Users\\zhang\\Documents\\AppESAE\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM.csproj"
+            "C:\\AppESAE\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM.csproj": {
+              "projectPath": "C:\\AppESAE\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM.csproj"
             }
           }
         }

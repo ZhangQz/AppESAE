@@ -11,8 +11,8 @@
 namespace ESAE_CROSSPLATFORM.Views.MinhasAulas {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\zhang\\Documents\\AppESAE\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM\\ESAE_CROSS" +
-        "PLATFORM\\Views\\MinhasAulas\\MinhasAulasPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\AppESAE\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM\\Views\\MinhasA" +
+        "ulas\\MinhasAulasPage.xaml")]
     public partial class MinhasAulasPage : global::Xamarin.Forms.CarouselPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

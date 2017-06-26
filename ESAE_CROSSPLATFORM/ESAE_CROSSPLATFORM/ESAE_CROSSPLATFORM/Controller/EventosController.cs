@@ -23,10 +23,10 @@ namespace ESAE_CROSSPLATFORM.Controller
     public EventosController()
 		{
 			servidor = new WS();
-			ListaEventos = JsonConvert.DeserializeObject<List<Evento>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/friends").ReadLine());
-			EditarEventos = JsonConvert.DeserializeObject<List<Evento>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/friends").ReadLine());
-			InserirEventos = JsonConvert.DeserializeObject<List<Evento>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/friends").ReadLine());
-			EliminaEventos = JsonConvert.DeserializeObject<List<Evento>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/friends").ReadLine());
+			ListaEventos = JsonConvert.DeserializeObject<List<Evento>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/eventos").ReadLine());
+			EditarEventos = JsonConvert.DeserializeObject<List<Evento>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/eventos").ReadLine());
+			InserirEventos = JsonConvert.DeserializeObject<List<Evento>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/eventos").ReadLine());
+			EliminaEventos = JsonConvert.DeserializeObject<List<Evento>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/eventos").ReadLine());
 		}
     }
 }

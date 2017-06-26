@@ -11,8 +11,8 @@
 namespace ESAE_CROSSPLATFORM.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\zhang\\Documents\\AppESAE\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM\\ESAE_CROSS" +
-        "PLATFORM\\Views\\Detail.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\AppESAE\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM\\ESAE_CROSSPLATFORM\\Views\\Detail." +
+        "xaml")]
     public partial class Detail : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

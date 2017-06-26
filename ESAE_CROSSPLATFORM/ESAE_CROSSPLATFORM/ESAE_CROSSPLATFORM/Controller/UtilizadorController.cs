@@ -22,10 +22,10 @@ namespace ESAE_CROSSPLATFORM.Controller
 	public UtilizadorController()
 	{
 		servidor = new WS();
-		ListaUtilizador = JsonConvert.DeserializeObject<List<Utilizador>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/friends").ReadLine());
-        InserirUtilizador = JsonConvert.DeserializeObject<List<Utilizador>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/friends").ReadLine());
-        EditarUtilizador = JsonConvert.DeserializeObject<List<Utilizador>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/friends").ReadLine());
-        EliminaUtilizador = JsonConvert.DeserializeObject<List<Utilizador>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/friends").ReadLine());
+		ListaUtilizador = JsonConvert.DeserializeObject<List<Utilizador>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/utilizador").ReadLine());
+        InserirUtilizador = JsonConvert.DeserializeObject<List<Utilizador>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/utilizador").ReadLine());
+        EditarUtilizador = JsonConvert.DeserializeObject<List<Utilizador>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/utilizador").ReadLine());
+        EliminaUtilizador = JsonConvert.DeserializeObject<List<Utilizador>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/utilizador").ReadLine());
 	}
 
 	}

@@ -23,10 +23,10 @@ namespace ESAE_CROSSPLATFORM.Controller
 		    public CursoController()
 		    {
 		        servidor = new WS();
-		        ListaCurso = JsonConvert.DeserializeObject<List<Curso>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/friends").ReadLine());
-		        EditarCurso = JsonConvert.DeserializeObject<List<Curso>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/friends").ReadLine());
-		        InserirCurso = JsonConvert.DeserializeObject<List<Curso>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/friends").ReadLine());
-		        EliminaCurso = JsonConvert.DeserializeObject<List<Curso>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/friends").ReadLine());
+		        ListaCurso = JsonConvert.DeserializeObject<List<Curso>>(servidor.PedidoServidor("http://10.0.2.2/APP/public/api/cursos").ReadLine());
+		        EditarCurso = JsonConvert.DeserializeObject<List<Curso>>(servidor.PedidoServidor("http://10.0.2.2/APP/public/api/cursos").ReadLine());
+		        InserirCurso = JsonConvert.DeserializeObject<List<Curso>>(servidor.PedidoServidor("http://10.0.2.2/APP/public/api/cursos").ReadLine());
+		        EliminaCurso = JsonConvert.DeserializeObject<List<Curso>>(servidor.PedidoServidor("http://10.0.2.2/APP/public/api/cursos").ReadLine());
 		    }
     }
 }

@@ -102,6 +102,8 @@ class MonoPackageManager_Resources {
 		"ESAE_CROSSPLATFORM.dll",
 		"FormsViewGroup.dll",
 		"Newtonsoft.Json.dll",
+		"System.Net.Http.Extensions.dll",
+		"System.Net.Http.Primitives.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Annotations.dll",
 		"Xamarin.Android.Support.Compat.dll",

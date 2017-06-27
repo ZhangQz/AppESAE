@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Text;
+using Newtonsoft.Json;
 using System.Threading.Tasks;
 
 namespace ESAE_CROSSPLATFORM.API

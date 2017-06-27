@@ -23,10 +23,10 @@ namespace ESAE_CROSSPLATFORM.Controller
     public PropinasController()
 		{
 			servidor = new WS();
-			ListaPropina = JsonConvert.DeserializeObject<List<Propina>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/propinas").ReadLine());
-			EditarPropina = JsonConvert.DeserializeObject<List<Propina>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/propinas").ReadLine());
-			InserirPropina = JsonConvert.DeserializeObject<List<Propina>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/propinas").ReadLine());
-			EliminaPropina = JsonConvert.DeserializeObject<List<Propina>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/propinas").ReadLine());
+			ListaPropina = JsonConvert.DeserializeObject<List<Propina>>(servidor.PedidoServidor("http://10.0.2.2/APP/public/api/propinas").ReadLine());
+			EditarPropina = JsonConvert.DeserializeObject<List<Propina>>(servidor.PedidoServidor("http://10.0.2.2/APP/public/api/propinas").ReadLine());
+			InserirPropina = JsonConvert.DeserializeObject<List<Propina>>(servidor.PedidoServidor("http://10.0.2.2/APP/public/api/propinas").ReadLine());
+			EliminaPropina = JsonConvert.DeserializeObject<List<Propina>>(servidor.PedidoServidor("http://10.0.2.2/APP/public/api/propinas").ReadLine());
 		}
     }
 }

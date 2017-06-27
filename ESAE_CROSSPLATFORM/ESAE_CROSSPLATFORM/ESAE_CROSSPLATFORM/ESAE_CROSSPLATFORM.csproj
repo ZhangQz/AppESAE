@@ -45,6 +45,7 @@
     <Compile Include="GestorEvento.cs" />
     <Compile Include="GestorPropina.cs" />
     <Compile Include="GestorUtilizador.cs" />
+    <Compile Include="IGeral.cs" />
     <Compile Include="Propina.cs" />
     <Compile Include="Models\Curso.cs" />
     <Compile Include="Models\Disciplina.cs" />

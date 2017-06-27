@@ -23,10 +23,10 @@ namespace ESAE_CROSSPLATFORM.Controller
     public DisciplinasController()
 		{
 			servidor = new WS();
-			listaDisciplinas = JsonConvert.DeserializeObject<List<Disciplina>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/disciplinas").ReadLine());
-			EditarDisciplinas = JsonConvert.DeserializeObject<List<Disciplina>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/disciplinas").ReadLine());
-			InserirDisciplinas = JsonConvert.DeserializeObject<List<Disciplina>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/disciplinas").ReadLine());
-			EliminaDisciplinas = JsonConvert.DeserializeObject<List<Disciplina>>(servidor.PedidoServidor("http://10.0.2.2/wishlist/public/api/disciplinas").ReadLine());
+			listaDisciplinas = JsonConvert.DeserializeObject<List<Disciplina>>(servidor.PedidoServidor("http://10.0.2.2/APP/public/api/disciplinas").ReadLine());
+			EditarDisciplinas = JsonConvert.DeserializeObject<List<Disciplina>>(servidor.PedidoServidor("http://10.0.2.2/APP/public/api/disciplinas").ReadLine());
+			InserirDisciplinas = JsonConvert.DeserializeObject<List<Disciplina>>(servidor.PedidoServidor("http://10.0.2.2/APP/public/api/disciplinas").ReadLine());
+			EliminaDisciplinas = JsonConvert.DeserializeObject<List<Disciplina>>(servidor.PedidoServidor("http://10.0.2.2/APP/public/api/disciplinas").ReadLine());
 		}
     }
 }

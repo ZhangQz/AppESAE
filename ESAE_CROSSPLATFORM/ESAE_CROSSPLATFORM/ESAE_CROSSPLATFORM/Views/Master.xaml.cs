@@ -13,58 +13,36 @@ namespace ESAE_CROSSPLATFORM.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Master : ContentPage
     {
-        GestorCurso gestorCurso;
         CursoController cursos;
-
-        GestorDisciplina gestorDisciplina;
-        DisciplinasController disciplinas;
-
-        GestorDocumento gestorDocumento;
-        DocumentosController documentos;
-
-        GestorEvento gestorEvento;
-        EventosController eventos;
-
-        GestorPropinas gestorPropinas;
-        PropinasController propinas;
-
-        GestorUtilizador gestorUtilizador;
+        DisciplinaController disciplinas;
+        DocumentoController documentos;
+        EventoController eventos;
+        PropinaController propinas;
         UtilizadorController utilizadores;
 
         public Master()
         {
             InitializeComponent();
 
-            gestorCurso = new GestorCurso();
             cursos = new CursoController();
-
-            gestorDisciplina = new GestorDisciplina();
-            disciplinas = new DisciplinasController();
-
-            gestorDocumento = new GestorDocumento();
-            documentos = new DocumentosController();
-
-            gestorEvento = new GestorEvento();
-            eventos = new EventosController();
-
-            gestorPropinas = new GestorPropinas();
-            propinas = new PropinasController();
-
-            gestorUtilizador = new GestorUtilizador();
+            disciplinas = new DisciplinaController();
+            documentos = new DocumentoController();
+            eventos = new EventoController();
+            propinas = new PropinaController();
             utilizadores = new UtilizadorController();
         }
-        
+
 
         private void BtnPerfil_Clicked(object sender, EventArgs e)
         {
             App.esae_crossplatform.IsPresented = false;
-            App.esae_crossplatform.Detail.Navigation.PushAsync(new Perfil.PerfilPage(gestorUtilizador));
+            App.esae_crossplatform.Detail.Navigation.PushAsync(new Perfil.PerfilPage(utilizadores));
         }
 
         private void BtnDocumentos_Clicked(object sender, EventArgs e)
         {
             App.esae_crossplatform.IsPresented = false;
-            App.esae_crossplatform.Detail.Navigation.PushAsync(new Documentos.DocumentosPage(gestorDocumento));
+            App.esae_crossplatform.Detail.Navigation.PushAsync(new Documentos.DocumentoCategoriaPage(documentos));
         }
 
         private void BtnHorarios_Clicked(object sender, EventArgs e)
@@ -77,14 +55,14 @@ namespace ESAE_CROSSPLATFORM.Views
         private void BtnEventos_Clicked(object sender, EventArgs e)
         {
             App.esae_crossplatform.IsPresented = false;
-            App.esae_crossplatform.Detail.Navigation.PushAsync(new Eventos.EventosPage(gestorEvento));
+            App.esae_crossplatform.Detail.Navigation.PushAsync(new Eventos.EventosPage(eventos));
 
         }
 
         private void BtnOfertas_Clicked(object sender, EventArgs e)
         {
             App.esae_crossplatform.IsPresented = false;
-            App.esae_crossplatform.Detail.Navigation.PushAsync(new Cursos.CursosTipoPage(gestorCurso));
+            App.esae_crossplatform.Detail.Navigation.PushAsync(new Cursos.CursosTipoPage(cursos));
 
         }
 

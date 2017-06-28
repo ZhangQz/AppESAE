@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ESAE_CROSSPLATFORM.Controller;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,13 +13,13 @@ namespace ESAE_CROSSPLATFORM.Views.Perfil
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LogInPage : ContentPage
     {
-        GestorUtilizador gestorUtilizador;
+        UtilizadorController utilizadores;
 
-        public LogInPage(GestorUtilizador _gestorUtilizador)
+        public LogInPage(UtilizadorController utilizadores)
         {
             InitializeComponent();
 
-            gestorUtilizador = _gestorUtilizador;
+            utilizadores = new UtilizadorController();
         }
 
         private void BtnLog_Clicked(object sender, EventArgs e)

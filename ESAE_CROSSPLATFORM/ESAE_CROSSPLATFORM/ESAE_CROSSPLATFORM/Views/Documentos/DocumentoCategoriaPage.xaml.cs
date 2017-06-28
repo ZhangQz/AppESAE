@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ESAE_CROSSPLATFORM.Controller;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,13 +13,16 @@ namespace ESAE_CROSSPLATFORM.Views.Documentos
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class DocumentoCategoriaPage : ContentPage
     {
-        GestorDocumento gestorDocumento;
+        DocumentoController documentos;
+        CursoController cursos;
 
-        public DocumentoCategoriaPage(GestorDocumento _gestorDocumento)
+        public DocumentoCategoriaPage(DocumentoController documentos)
         {
             InitializeComponent();
 
-            gestorDocumento = _gestorDocumento;
+            cursos = new CursoController();
+
+            documentos = new DocumentoController();
         }
     }
 }

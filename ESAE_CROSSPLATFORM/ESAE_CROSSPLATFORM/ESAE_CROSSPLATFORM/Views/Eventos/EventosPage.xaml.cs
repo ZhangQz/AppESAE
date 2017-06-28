@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ESAE_CROSSPLATFORM.Controller;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,13 +13,17 @@ namespace ESAE_CROSSPLATFORM.Views.Eventos
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class EventosPage : ContentPage
     {
-        GestorEvento gestorEvento;
+        EventoController eventos;
+        CursoController cursos;
+        DisciplinaController disciplinas;
 
-        public EventosPage(GestorEvento _gestorEvento)
+        public EventosPage(EventoController eventos)
         {
             InitializeComponent();
 
-            gestorEvento = _gestorEvento;
+            eventos = new EventoController();
+            cursos = new CursoController();
+            disciplinas = new DisciplinaController();
         }
     }
 }

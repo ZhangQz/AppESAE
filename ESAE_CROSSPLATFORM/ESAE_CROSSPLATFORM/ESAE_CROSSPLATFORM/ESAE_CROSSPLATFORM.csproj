@@ -53,11 +53,11 @@
     <Compile Include="Models\Evento.cs" />
     <Compile Include="Models\Propina.cs" />
     <Compile Include="Models\Utilizador.cs" />
-    <Compile Include="Controller\CursosController.cs" />
-    <Compile Include="Controller\DisciplinasController.cs" />
-    <Compile Include="Controller\DocumentosController.cs" />
-    <Compile Include="Controller\EventosController.cs" />
-    <Compile Include="Controller\PropinasController.cs" />
+    <Compile Include="Controller\CursoController.cs" />
+    <Compile Include="Controller\DisciplinaController.cs" />
+    <Compile Include="Controller\DocumentoController.cs" />
+    <Compile Include="Controller\EventoController.cs" />
+    <Compile Include="Controller\PropinaController.cs" />
     <Compile Include="Controller\UtilizadorController.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>

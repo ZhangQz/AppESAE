@@ -19,15 +19,14 @@ namespace ESAE_CROSSPLATFORM.Views
         public Detail()
         {
             InitializeComponent();
-
-            gestorUtilizador = new GestorUtilizador();
+            
             utilizadores = new UtilizadorController();
         }
 
         private void BtnEntrar_Clicked(object sender, EventArgs e)
         {
             App.esae_crossplatform.IsPresented = false;
-            App.esae_crossplatform.Detail.Navigation.PushAsync(new Perfil.LogInPage(gestorUtilizador));
+            App.esae_crossplatform.Detail.Navigation.PushAsync(new Perfil.LogInPage(utilizadores));
         }
     }
 }

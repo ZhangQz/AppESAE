@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ESAE_CROSSPLATFORM.Controller;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,9 +13,19 @@ namespace ESAE_CROSSPLATFORM.Views.Cursos
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CursoPage : ContentPage
     {
-        public CursoPage()
+        CursoController cursos;
+        PropinaController propinas;
+        EventoController eventos;
+        DisciplinaController disciplinas;
+
+        public CursoPage(CursoController cursos)
         {
             InitializeComponent();
+
+            cursos = new CursoController();
+            propinas = new PropinaController();
+            eventos = new EventoController();
+            disciplinas = new DisciplinaController();
         }
 
         private void BtnPG_AM_Clicked(object sender, EventArgs e)

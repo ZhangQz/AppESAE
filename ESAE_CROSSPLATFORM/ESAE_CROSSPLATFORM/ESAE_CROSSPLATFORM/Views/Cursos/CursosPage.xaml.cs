@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ESAE_CROSSPLATFORM.Controller;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,21 +13,19 @@ namespace ESAE_CROSSPLATFORM.Views.Cursos
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CursosPage : ContentPage
     {
-        GestorCurso gestorCurso;
+        CursoController cursos;
 
-        public CursosPage(GestorCurso _gestorCurso)
+        public CursosPage(CursoController cursos)
         {
             InitializeComponent();
 
-            gestorCurso = _gestorCurso;
-
-            ListaCursos.ItemsSource = gestorCurso.GetAllItens();
+            cursos = new CursoController();
         }
 
         private void BtnAudioMult_Clicked(object sender, EventArgs e)
         {
             App.esae_crossplatform.IsPresented = false;
-            App.esae_crossplatform.Detail.Navigation.PushAsync(new CursoPage());
+            App.esae_crossplatform.Detail.Navigation.PushAsync(new CursoPage(cursos));
         }
 
         private void ListaCursos_ItemSelected(object sender, SelectedItemChangedEventArgs e)

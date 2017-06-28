@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ESAE_CROSSPLATFORM.Controller;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,14 +13,20 @@ namespace ESAE_CROSSPLATFORM.Views.Perfil
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PerfilPage : ContentPage
     {
-        GestorUtilizador gestorUtilizador;
+        CursoController cursos;
+        EventoController eventos;
+        PropinaController propinas;
+        UtilizadorController utilizadores;
 
-        public PerfilPage(GestorUtilizador _gestorUtilizador)
+
+        public PerfilPage(UtilizadorController utilizadores)
         {
             InitializeComponent();
 
-            gestorUtilizador = _gestorUtilizador;
-
+            utilizadores = new UtilizadorController();
+            cursos = new CursoController();
+            propinas = new PropinaController();
+            eventos = new EventoController();
 
         }
 

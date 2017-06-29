@@ -13,16 +13,16 @@ namespace ESAE_CROSSPLATFORM.Views.Cursos
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CursoPage : ContentPage
     {
-        CursoController cursos;
+        CursoController curso;
         PropinaController propinas;
         EventoController eventos;
         DisciplinaController disciplinas;
 
-        public CursoPage(CursoController cursos)
+        public CursoPage(CursoController curso)
         {
             InitializeComponent();
 
-            cursos = new CursoController();
+            curso = new CursoController();
             propinas = new PropinaController();
             eventos = new EventoController();
             disciplinas = new DisciplinaController();

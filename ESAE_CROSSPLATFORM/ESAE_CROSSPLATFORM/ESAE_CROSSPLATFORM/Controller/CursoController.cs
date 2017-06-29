@@ -20,7 +20,7 @@ namespace ESAE_CROSSPLATFORM.Controller
         {
             servidor = new WS();
             
-            ListaCurso = JsonConvert.DeserializeObject<List<Curso>>(servidor.PedidoServidor("http://10.0.2.2/backoffice/public/api/cursos").ReadLine());
+            ListaCurso = JsonConvert.DeserializeObject<List<Curso>>(servidor.PedidoServidor("https://dparst.000webhostapp.com/public/api/cursos").ReadLine());
         }
 
         public void InserirCurso(Curso _curso)
@@ -31,14 +31,13 @@ namespace ESAE_CROSSPLATFORM.Controller
 
         public void EditarCurso(int id, Curso _curso)
         {
-            //escrevam o código aqui em falta...
-            //este método têm o desafio de tentarem saber como podem chamar um método da API (que não está ainda criado no controlador do laravel) e que recebe um objeto e salva (edita) na base de dados
+            //ListaCurso.(_curso);
         }
 
         public void ApagarCurso(int id, Curso _curso)
         {
-            //escrevam o código aqui em falta...
-            //este método têm o desafio de tentarem saber como podem chamar um método da API (que não está ainda criado no controlador do laravel) que recebe um ID e apaga da base de dados
+            ListaCurso.Remove(_curso);
+            Debug.WriteLine("O curso foi eliminado com sucesso");
         }
 
         public void ListaCursos()

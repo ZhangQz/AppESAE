@@ -13,7 +13,6 @@ namespace ESAE_CROSSPLATFORM.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Detail : ContentPage
     {
-        GestorUtilizador gestorUtilizador;
         UtilizadorController utilizadores;
 
         public Detail()

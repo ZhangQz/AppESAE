@@ -20,6 +20,8 @@ namespace ESAE_CROSSPLATFORM.Views.Cursos
             InitializeComponent();
 
             cursos = new CursoController();
+
+            listView.ItemsSource = cursos.GetAllItens();
         }
 
         private void BtnAudioMult_Clicked(object sender, EventArgs e)
@@ -29,6 +31,11 @@ namespace ESAE_CROSSPLATFORM.Views.Cursos
         }
 
         private void ListaCursos_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+
+        }
+
+        private void listView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
 
         }

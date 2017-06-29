@@ -20,7 +20,7 @@ namespace ESAE_CROSSPLATFORM.Controller
         {
             servidor = new WS();
 
-            ListaEvento = JsonConvert.DeserializeObject<List<Evento>>(servidor.PedidoServidor("http://10.0.2.2/backoffice/public/api/eventos").ReadLine());
+            ListaEvento = JsonConvert.DeserializeObject<List<Evento>>(servidor.PedidoServidor("https://dparst.000webhostapp.com/public/api/eventos").ReadLine());
         }
 
         public void InserirEvento(Evento _evento)

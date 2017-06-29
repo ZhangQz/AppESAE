@@ -21,7 +21,7 @@ namespace ESAE_CROSSPLATFORM.Controller
             servidor = new WS();
 
             //o vosso projeto do laravel chama-se APP? Esta URI está certa? (http://10.0.2.2/backoffice/public/api/disciplinas)
-            ListaDisciplina = JsonConvert.DeserializeObject<List<Disciplina>>(servidor.PedidoServidor("http://10.0.2.2/backoffice/public/api/disciplinas").ReadLine());
+            ListaDisciplina = JsonConvert.DeserializeObject<List<Disciplina>>(servidor.PedidoServidor("https://dparst.000webhostapp.com/public/api/disciplinas").ReadLine());
         }
 
         public void InserirDisciplina(Disciplina _disciplina)

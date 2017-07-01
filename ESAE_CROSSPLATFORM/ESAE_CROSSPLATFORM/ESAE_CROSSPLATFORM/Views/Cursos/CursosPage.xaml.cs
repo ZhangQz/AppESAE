@@ -37,7 +37,8 @@ namespace ESAE_CROSSPLATFORM.Views.Cursos
 
         private void listView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-
+            App.esae_crossplatform.IsPresented = false;
+            App.esae_crossplatform.Detail.Navigation.PushAsync(new CursoPage(cursos));
         }
     }
 }

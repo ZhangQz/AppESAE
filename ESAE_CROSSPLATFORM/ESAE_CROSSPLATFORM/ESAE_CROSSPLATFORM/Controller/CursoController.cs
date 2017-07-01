@@ -48,7 +48,8 @@ namespace ESAE_CROSSPLATFORM.Controller
                 Debug.WriteLine(p.GetTipodecurso()); //imprime o tipodecurso da curso atual
                 Debug.WriteLine(p.GetResponsavel()); //imprime o responsavel da curso atual
                 Debug.WriteLine(p.GetDescricao()); //imprime o descrisao da curso atual
-                Debug.WriteLine(p.GetTelefone()); //imprime o telefone da curso atual
+                Debug.WriteLine(p.GetEtcs());
+                Debug.WriteLine(p.GetEtcs()); //imprime o telefone da curso atual
             }
         }
 
@@ -63,7 +64,8 @@ namespace ESAE_CROSSPLATFORM.Controller
                 novo.SetTipodecurso(curso.GetTipodecurso());
                 novo.SetResponsavel(curso.GetResponsavel());
                 novo.SetDescricao(curso.GetDescricao());
-                novo.SetTelefone(curso.GetTelefone());
+                novo.SetEmail(curso.GetEmail());
+                novo.SetEtcs(curso.GetEtcs());
                 dadosaenviar.Add(novo);
             }
             return dadosaenviar;

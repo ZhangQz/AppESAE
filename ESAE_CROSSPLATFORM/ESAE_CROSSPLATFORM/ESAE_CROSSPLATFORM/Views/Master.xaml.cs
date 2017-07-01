@@ -42,7 +42,7 @@ namespace ESAE_CROSSPLATFORM.Views
         private void BtnDocumentos_Clicked(object sender, EventArgs e)
         {
             App.esae_crossplatform.IsPresented = false;
-            App.esae_crossplatform.Detail.Navigation.PushAsync(new Documentos.DocumentoCategoriaPage(documentos));
+            App.esae_crossplatform.Detail.Navigation.PushAsync(new Documentos.DocumentosPage(documentos));
         }
 
         private void BtnHorarios_Clicked(object sender, EventArgs e)

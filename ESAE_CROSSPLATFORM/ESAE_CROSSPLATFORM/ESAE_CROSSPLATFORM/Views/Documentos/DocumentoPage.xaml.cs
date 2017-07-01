@@ -22,11 +22,18 @@ namespace ESAE_CROSSPLATFORM.Views.Documentos
             documentos = new DocumentoController();
 
 
+            documentoslistview.ItemsSource = documentos.GetAllItens();
         }
 
         private void BtnDownload_Clicked(object sender, EventArgs e)
         {
             Device.OpenUri(new Uri("http://www.ismt.pt/pt-files/pdf/BoletimMatriculaESAESitEsp2016.pdf"));
+        }
+        
+
+        private void documentoslistview_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+
         }
     }
 }

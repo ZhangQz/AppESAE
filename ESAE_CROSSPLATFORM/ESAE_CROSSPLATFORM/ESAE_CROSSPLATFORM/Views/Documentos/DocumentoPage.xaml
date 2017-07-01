@@ -4,65 +4,22 @@
              x:Class="ESAE_CROSSPLATFORM.Views.Documentos.DocumentoPage"
              Title="Documentos">
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout>
-                <Frame Margin="10,10,10,10">
-                    <StackLayout>
-                        <Label Text="Titulo do Documento"/>
-                        <Button Text="Descaregar"
-                            x:Name="BtnDownload"
-                            Clicked="BtnDownload_Clicked"/>
-                    </StackLayout>
-                </Frame>
-                <Frame Margin="10,0,10,10">
-                    <StackLayout>
-                        <Label Text="Titulo do Documento"/>
-                        <Button Text="Descarregar"/>
-                    </StackLayout>
-                </Frame>
-                <Frame Margin="10,0,10,10">
-                    <StackLayout>
-                        <Label Text="Titulo do Documento"/>
-                        <Button Text="Descarregar"/>
-                    </StackLayout>
-                </Frame>
-                <Frame Margin="10,0,10,10">
-                    <StackLayout>
-                        <Label Text="Titulo do Documento"/>
-                        <Button Text="Descarregar"/>
-                    </StackLayout>
-                </Frame>
-                <Frame Margin="10,0,10,10">
-                    <StackLayout>
-                        <Label Text="Titulo do Documento"/>
-                        <Button Text="Descarregar"/>
-                    </StackLayout>
-                </Frame>
-                <Frame Margin="10,0,10,10">
-                    <StackLayout>
-                        <Label Text="Titulo do Documento"/>
-                        <Button Text="Descarregar"/>
-                    </StackLayout>
-                </Frame>
-                <Frame Margin="10,0,10,10">
-                    <StackLayout>
-                        <Label Text="Titulo do Documento"/>
-                        <Button Text="Descarregar"/>
-                    </StackLayout>
-                </Frame>
-                <Frame Margin="10,0,10,10">
-                    <StackLayout>
-                        <Label Text="Titulo do Documento"/>
-                        <Button Text="Descarregar"/>
-                    </StackLayout>
-                </Frame>
-                <Frame Margin="10,0,10,10">
-                    <StackLayout>
-                        <Label Text="Titulo do Documento"/>
-                        <Button Text="Descarregar"/>
-                    </StackLayout>
-                </Frame>
-            </StackLayout>
-        </ScrollView>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <ListView x:Name="documentoslistview" ItemSelected="documentoslistview_ItemSelected" ItemsSource="{Binding documentos}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding documentos}"/>
+                                </StackLayout>
+                                <Label Text="x"/>
+                                <Label Text="{Binding documentos{id}}}"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

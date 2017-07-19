@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ESAE_CROSSPLATFORM.Views.Cursos.CursoLivrePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Diretor de Segurança"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand" Margin="10,0,10,10"
+                    BackgroundColor="White"/>
+
+            <Button Text="Educação para os Média Digitais"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand" Margin="10,0,10,10"
+                    BackgroundColor="White"/>
+
+            <Button Text="Curso Livre em Psicanálise"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand" Margin="10,0,10,10"
+                    BackgroundColor="White"/>
+
+            <Button Text="Alta Performance em Vendas"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand" Margin="10,0,10,10"
+                    BackgroundColor="White"/>
+
+            <Button Text="Do Business Model Ao Business Plan"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand" Margin="10,0,10,10"
+                    BackgroundColor="White"/>
+
+            <Button Text="Exel Avançado para Apoio ao Gestão"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand" Margin="10,0,10,10"
+                    BackgroundColor="White"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

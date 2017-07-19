@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ESAE_CROSSPLATFORM.Views.Detail"
+             Title="ESAE"
+             BackgroundImage="ISMT_fundo.png">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Label Text="Bem &#x0a;Vindo!" TextColor="White" FontSize="72" FontAttributes="Bold" XAlign="Center"/>
+            <Button Text="Entrar"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    x:Name="BtnEntrar"
+                    Clicked="BtnEntrar_Clicked"
+                    BackgroundColor="White"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
